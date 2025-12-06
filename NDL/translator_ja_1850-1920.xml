@@ -1,0 +1,69 @@
+<searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>1</numberOfRecords>
+  <extraResponseData>
+    <facets>
+      <lst name="REPOSITORY_NO">
+        <int name="R100000136">1</int>
+      </lst>
+      <lst name="NDC">
+      </lst>
+      <lst name="ISSUED_DATE">
+        <int name="1910">1</int>
+      </lst>
+      <lst name="LIBRARY">
+      </lst>
+    </facets>
+  </extraResponseData>
+  <records>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+          <dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000136-I1571698602827300224">
+            <dcterms:description>type : article</dcterms:description>
+            <dcndl:bibRecordCategory>R100000136</dcndl:bibRecordCategory>
+            <dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000136-I1571698602827300224#material"/>
+          </dcndl:BibAdminResource>
+          <dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000136-I1571698602827300224#material">
+            <dcterms:title>翻譯者としての玄弉三藏</dcterms:title>
+            <dc:title>
+              <rdf:Description>
+                <rdf:value>翻譯者としての玄弉三藏</rdf:value>
+              </rdf:Description>
+            </dc:title>
+            <dcterms:creator>
+              <foaf:Agent>
+                <foaf:name>禿氏 祐祥</foaf:name>
+              </foaf:Agent>
+            </dcterms:creator>
+            <dcterms:publisher>
+              <foaf:Agent>
+                <foaf:name>龍谷大学</foaf:name>
+              </foaf:Agent>
+            </dcterms:publisher>
+            <dcterms:date>1910-09-01</dcterms:date>
+            <dcterms:date>107</dcterms:date>
+            <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1910-09-01</dcterms:issued>
+            <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1910-09-01</dcterms:issued>
+            <dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2">ja</dcterms:language>
+            <dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/Article" rdfs:label="記事・論文"/>
+            <dcndl:publicationName>六条学報</dcndl:publicationName>
+            <dcndl:publicationVolume>107</dcndl:publicationVolume>
+            <dcndl:pageRange>1-9</dcndl:pageRange>
+            <dcterms:audience>一般</dcterms:audience>
+            <rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1571698602827300224"/>
+          </dcndl:BibResource>
+          <dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000136-I1571698602827300224#material">
+            <dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000136-I1571698602827300224#item"/>
+          </dcndl:BibResource>
+          <dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000136-I1571698602827300224#item">
+            <rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1571698602827300224"/>
+          </dcndl:Item>
+        </rdf:RDF>
+      </recordData>
+      <recordPosition>1</recordPosition>
+    </record>
+  </records>
+</searchRetrieveResponse>

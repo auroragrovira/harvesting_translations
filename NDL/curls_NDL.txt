@@ -1,0 +1,13 @@
+#Cambiar la a buscar, por ejemplo translation, en la dirección den curl. Al final viene un archivo después de -o que es un XML, es donde se guarda la informacion
+
+#Ingles - translation
+curl "https://ndlsearch.ndl.go.jp/api/sru?operation=searchRetrieve&version=1.2&query=title%3D%22translation%22%20AND%20from%3D1850%20AND%20until%3D1920&maximumRecords=200&recordSchema=dcndl&recordPacking=string&startRecord=1" -o translation_en_1850_1920.xml --silent --show-error --write-out "\nHTTP status: %{http_code}\n"
+
+#Coreano — 번역
+curl "https://ndlsearch.ndl.go.jp/api/sru?operation=searchRetrieve&version=1.2&query=title%3D%22%EB%B2%88%EC%97%AD%22%20AND%20from%3D1850%20AND%20until%3D1920&maximumRecords=200&recordSchema=dcndl&recordPacking=string&startRecord=1" -o translation_ko_1850_1920.xml --silent --show-error --write-out "\nHTTP status: %{http_code}\n"
+
+#Chino simplificado — 翻译
+curl "https://ndlsearch.ndl.go.jp/api/sru?operation=searchRetrieve&version=1.2&query=title%3D%22%E7%BF%BB%E8%AF%91%22%20AND%20from%3D1850%20AND%20until%3D1920&maximumRecords=200&recordSchema=dcndl&recordPacking=string&startRecord=1" -o translation_zh_1850_1920.xml --silent --show-error --write-out "\nHTTP status: %{http_code}\n"
+
+#Japonés — 翻訳
+curl "https://ndlsearch.ndl.go.jp/api/sru?operation=searchRetrieve&version=1.2&query=title%3D%22%E7%BF%BB%E8%A8%B3%22%20AND%20from%3D1850%20AND%20until%3D1920&maximumRecords=200&recordSchema=dcndl&recordPacking=string&startRecord=1" -o translation_ja_1850_1920.xml --silent --show-error --write-out "\nHTTP status: %{http_code}\n"

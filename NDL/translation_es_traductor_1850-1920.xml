@@ -1,0 +1,327 @@
+<searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>4</numberOfRecords>
+  <extraResponseData>
+    <facets>
+      <lst name="REPOSITORY_NO">
+        <int name="R100000002">3</int>
+        <int name="R100000136">1</int>
+      </lst>
+      <lst name="NDC">
+      </lst>
+      <lst name="ISSUED_DATE">
+        <int name="1860">1</int>
+        <int name="1865">1</int>
+        <int name="1901">1</int>
+        <int name="1916">1</int>
+      </lst>
+      <lst name="LIBRARY">
+        <int name="国立国会図書館">3</int>
+      </lst>
+    </facets>
+  </extraResponseData>
+  <records>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+          <dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000006493914">
+            <dcndl:catalogingStatus>C7</dcndl:catalogingStatus>
+            <dcterms:description>type : book</dcterms:description>
+            <dcndl:bibRecordCategory>R100000002</dcndl:bibRecordCategory>
+            <dcndl:bibRecordSubCategory>211</dcndl:bibRecordSubCategory>
+            <dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000006493914#material"/>
+          </dcndl:BibAdminResource>
+          <dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000006493914#material">
+            <rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000006493914"/>
+            <rdfs:seeAlso rdf:resource="http://lccn.loc.gov/07000886"/>
+            <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/USMARCNO">07000886</dcterms:identifier>
+            <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID">000006493914</dcterms:identifier>
+            <dcterms:title>Diccionario de bibliografia agronómica y de toda clase de escritos relacionados con la agricultura; seguido de un indice de autores y traductores, con algunos apuntes biográficos. Su autor el ilmo. sr. d. Bráulio Anton Ramirez ... Obra premiada por la Biblioteca nacional en concurso público de 5 de enero de 1862, é impresa à expensas del gobierno.</dcterms:title>
+            <dc:title>
+              <rdf:Description>
+                <rdf:value>Diccionario de bibliografia agronómica y de toda clase de escritos relacionados con la agricultura; seguido de un indice de autores y traductores, con algunos apuntes biográficos. Su autor el ilmo. sr. d. Bráulio Anton Ramirez ... Obra premiada por la Biblioteca nacional en concurso público de 5 de enero de 1862, é impresa à expensas del gobierno.</rdf:value>
+              </rdf:Description>
+            </dc:title>
+            <dcndl:uniformTitle>
+              <rdf:Description>
+                <rdf:value>Madrid. Biblioteca Nacional. Obras premiadas.</rdf:value>
+              </rdf:Description>
+            </dcndl:uniformTitle>
+            <dcterms:creator>
+              <foaf:Agent>
+                <foaf:name>Antón, Ramírez, Braulio, 1823-1892.</foaf:name>
+              </foaf:Agent>
+            </dcterms:creator>
+            <dcterms:publisher>
+              <foaf:Agent>
+                <foaf:name>Impr. y estereot. de M. Rivadeneyra</foaf:name>
+                <dcndl:location>Madrid</dcndl:location>
+              </foaf:Agent>
+            </dcterms:publisher>
+            <dcndl:publicationPlace rdf:datatype="http://purl.org/dc/terms/ISO3166">ES</dcndl:publicationPlace>
+            <dcterms:date>1865.</dcterms:date>
+            <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1865</dcterms:issued>
+            <dcterms:subject>
+              <rdf:Description>
+                <rdf:value>Agriculture -- Bio-bibliography.</rdf:value>
+              </rdf:Description>
+            </dcterms:subject>
+            <dcterms:subject rdf:resource="http://id.ndl.go.jp/class/ndlc/VF5"/>
+            <dc:subject rdf:datatype="http://purl.org/dc/terms/LCC">Z5075.S7</dc:subject>
+            <dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2">spa</dcterms:language>
+            <dcterms:extent>xix, 1015 p., 1 l. 28 cm.</dcterms:extent>
+            <dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/Book" rdfs:label="図書"/>
+            <rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000006493914"/>
+          </dcndl:BibResource>
+          <dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000006493914#material">
+            <dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000006493914#item"/>
+          </dcndl:BibResource>
+          <dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000006493914#item">
+            <dcndl:holdingAgent>
+              <foaf:Agent>
+                <foaf:name>国立国会図書館</foaf:name>
+                <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLLibCode">0000</dcterms:identifier>
+              </foaf:Agent>
+            </dcndl:holdingAgent>
+            <rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000006493914"/>
+            <rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000006493914"/>
+            <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID">000006493914</dcterms:identifier>
+            <dcndl:callNumber>VF5-Y2746</dcndl:callNumber>
+          </dcndl:Item>
+        </rdf:RDF>
+      </recordData>
+      <recordPosition>1</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+          <dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000136-I1130000793613550080">
+            <dcterms:description>type : title</dcterms:description>
+            <dcndl:bibRecordCategory>R100000136</dcndl:bibRecordCategory>
+            <dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000136-I1130000793613550080#material"/>
+          </dcndl:BibAdminResource>
+          <dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000136-I1130000793613550080#material">
+            <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NIIBibID">AA10570951</dcterms:identifier>
+            <dcterms:title>Índice general de la bibliografía espanola : por orden alfabético de authores, colaboradores, traductores y agrupación por materias</dcterms:title>
+            <dc:title>
+              <rdf:Description>
+                <rdf:value>Índice general de la bibliografía espanola : por orden alfabético de authores, colaboradores, traductores y agrupación por materias</rdf:value>
+              </rdf:Description>
+            </dc:title>
+            <dcndl:edition>Reprint ed.</dcndl:edition>
+            <dcterms:publisher>
+              <foaf:Agent>
+                <foaf:name>Kraus Reprint</foaf:name>
+              </foaf:Agent>
+            </dcterms:publisher>
+            <dcndl:publicationPlace rdf:datatype="http://purl.org/dc/terms/ISO3166">lh</dcndl:publicationPlace>
+            <dcterms:date>1967</dcterms:date>
+            <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1901</dcterms:issued>
+            <dcterms:description>Reprint. Originally published:Madrid: Asociacíon de la Librería, de la imprenta</dcterms:description>
+            <dcterms:description>OR:AA00109344</dcterms:description>
+            <dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2">es</dcterms:language>
+            <dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/Journal" rdfs:label="雑誌"/>
+            <dcterms:audience>一般</dcterms:audience>
+            <rdfs:seeAlso rdf:resource="https://ci.nii.ac.jp/ncid/AA10570951"/>
+            <dcterms:relation rdf:resource="https://ci.nii.ac.jp/ncid/AA10570951#entity"/>
+          </dcndl:BibResource>
+          <dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000136-I1130000793613550080#material">
+            <dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000136-I1130000793613550080#item"/>
+          </dcndl:BibResource>
+          <dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000136-I1130000793613550080#item">
+            <rdfs:seeAlso rdf:resource="https://ci.nii.ac.jp/ncid/AA10570951"/>
+            <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NIIBibID">AA10570951</dcterms:identifier>
+          </dcndl:Item>
+        </rdf:RDF>
+      </recordData>
+      <recordPosition>2</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+          <dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003091267">
+            <dcndl:catalogingStatus>C7</dcndl:catalogingStatus>
+            <dcterms:description>type : book</dcterms:description>
+            <dcndl:bibRecordCategory>R100000002</dcndl:bibRecordCategory>
+            <dcndl:bibRecordSubCategory>211</dcndl:bibRecordSubCategory>
+            <dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003091267#material"/>
+          </dcndl:BibAdminResource>
+          <dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003091267#material">
+            <rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000003091267"/>
+            <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID">000003091267</dcterms:identifier>
+            <dcterms:title>Memorias authenticas sobre Garibaldi / por Camillo Leynadier ; A.M.P. Carrilho, traductor.</dcterms:title>
+            <dc:title>
+              <rdf:Description>
+                <rdf:value>Memorias authenticas sobre Garibaldi / por Camillo Leynadier ; A.M.P. Carrilho, traductor.</rdf:value>
+              </rdf:Description>
+            </dc:title>
+            <dcndl:alternative>
+              <rdf:Description>
+                <rdf:value>A vida aos vinte annos.</rdf:value>
+              </rdf:Description>
+            </dcndl:alternative>
+            <dcndl:seriesTitle>
+              <rdf:Description>
+                <rdf:value>Bibliotheca escolhida</rdf:value>
+              </rdf:Description>
+            </dcndl:seriesTitle>
+            <dcterms:creator>
+              <foaf:Agent>
+                <foaf:name>Leynadier, Camille, d. 1862.</foaf:name>
+              </foaf:Agent>
+            </dcterms:creator>
+            <dcterms:creator>
+              <foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00438368">
+                <foaf:name>Dumas, Alexandre, 1824-1895</foaf:name>
+              </foaf:Agent>
+            </dcterms:creator>
+            <dcterms:publisher>
+              <foaf:Agent>
+                <foaf:name>Livraria de J.P.M. Lavado</foaf:name>
+                <dcndl:location>Lisboa</dcndl:location>
+              </foaf:Agent>
+            </dcterms:publisher>
+            <dcterms:date>1860.</dcterms:date>
+            <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1860</dcterms:issued>
+            <dcterms:description>Includes bibliographical references.</dcterms:description>
+            <dcterms:description>With: A vida aos vinte annos / por Alexandre Dumas, filho ; A.M.P. Carrilho, traductor. Lisboa : Livraria de J.P.M. Lavado, 1861.</dcterms:description>
+            <dcterms:subject>
+              <rdf:Description>
+                <rdf:value>Garibaldi, Giuseppe, 1807-1882.</rdf:value>
+              </rdf:Description>
+            </dcterms:subject>
+            <dcterms:subject rdf:resource="http://id.ndl.go.jp/class/ndlc/GK437"/>
+            <dcterms:subject rdf:resource="http://id.ndl.go.jp/class/ndlc/KR154"/>
+            <dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2">por</dcterms:language>
+            <dcterms:extent>2 v. in 1 : ports. ; 16 cm.</dcterms:extent>
+            <dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/Book" rdfs:label="図書"/>
+            <rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003091267"/>
+          </dcndl:BibResource>
+          <dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003091267#material">
+            <dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003091267#item"/>
+          </dcndl:BibResource>
+          <dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003091267#item">
+            <dcndl:holdingAgent>
+              <foaf:Agent>
+                <foaf:name>国立国会図書館</foaf:name>
+                <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLLibCode">0000</dcterms:identifier>
+              </foaf:Agent>
+            </dcndl:holdingAgent>
+            <rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003091267"/>
+            <rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000003091267"/>
+            <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID">000003091267</dcterms:identifier>
+            <dcndl:callNumber>GK437-A108</dcndl:callNumber>
+          </dcndl:Item>
+        </rdf:RDF>
+      </recordData>
+      <recordPosition>3</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#">
+          <dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003089293">
+            <dcndl:catalogingStatus>C7</dcndl:catalogingStatus>
+            <dcterms:description>type : book</dcterms:description>
+            <dcndl:bibRecordCategory>R100000002</dcndl:bibRecordCategory>
+            <dcndl:bibRecordSubCategory>211</dcndl:bibRecordSubCategory>
+            <dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003089293#material"/>
+          </dcndl:BibAdminResource>
+          <dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003089293#material">
+            <rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000003089293"/>
+            <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID">000003089293</dcterms:identifier>
+            <dcterms:title>Memorias de un oficial de la Legi「a」on Británica : campañas y cruceros durante la guerra de emancipación hispano-americana / Luis de Terán, traductor.</dcterms:title>
+            <dc:title>
+              <rdf:Description>
+                <rdf:value>Memorias de un oficial de la Legi「a」on Británica : campañas y cruceros durante la guerra de emancipación hispano-americana / Luis de Terán, traductor.</rdf:value>
+              </rdf:Description>
+            </dc:title>
+            <dcndl:seriesTitle>
+              <rdf:Description>
+                <rdf:value>Biblioteca Ayacucho ; 8</rdf:value>
+              </rdf:Description>
+            </dcndl:seriesTitle>
+            <dcterms:creator>
+              <foaf:Agent>
+                <foaf:name>Vowell, Richard Longeville.</foaf:name>
+              </foaf:Agent>
+            </dcterms:creator>
+            <dcterms:publisher>
+              <foaf:Agent>
+                <foaf:name>Editorial América</foaf:name>
+                <dcndl:location>Madrid</dcndl:location>
+              </foaf:Agent>
+            </dcterms:publisher>
+            <dcterms:date>[1916?]</dcterms:date>
+            <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1916</dcterms:issued>
+            <dcterms:description>Includes bibliographical references.</dcterms:description>
+            <dcterms:subject>
+              <rdf:Description>
+                <rdf:value>南アメリカ.</rdf:value>
+                <dcndl:transcription>Minamiamerika.</dcndl:transcription>
+              </rdf:Description>
+            </dcterms:subject>
+            <dcterms:subject>
+              <rdf:Description>
+                <rdf:value>ベネズエラ.</rdf:value>
+                <dcndl:transcription>Benezuera.</dcndl:transcription>
+              </rdf:Description>
+            </dcterms:subject>
+            <dcterms:subject>
+              <rdf:Description>
+                <rdf:value>コロンビア.</rdf:value>
+                <dcndl:transcription>Koronbia.</dcndl:transcription>
+              </rdf:Description>
+            </dcterms:subject>
+            <dcterms:subject>
+              <rdf:Description>
+                <rdf:value>チリ.</rdf:value>
+                <dcndl:transcription>Tiri.</dcndl:transcription>
+              </rdf:Description>
+            </dcterms:subject>
+            <dcterms:subject>
+              <rdf:Description>
+                <rdf:value>紀行.</rdf:value>
+                <dcndl:transcription>Kiko.</dcndl:transcription>
+              </rdf:Description>
+            </dcterms:subject>
+            <dcterms:subject>
+              <rdf:Description>
+                <rdf:value>歴史.</rdf:value>
+                <dcndl:transcription>Rekisi.</dcndl:transcription>
+              </rdf:Description>
+            </dcterms:subject>
+            <dcterms:subject rdf:resource="http://id.ndl.go.jp/class/ndlc/GH334"/>
+            <dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2">spa</dcterms:language>
+            <dcterms:extent>241 p. ; 22 cm.</dcterms:extent>
+            <dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/Book" rdfs:label="図書"/>
+            <rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003089293"/>
+          </dcndl:BibResource>
+          <dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003089293#material">
+            <dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003089293#item"/>
+          </dcndl:BibResource>
+          <dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003089293#item">
+            <dcndl:holdingAgent>
+              <foaf:Agent>
+                <foaf:name>国立国会図書館</foaf:name>
+                <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLLibCode">0000</dcterms:identifier>
+              </foaf:Agent>
+            </dcndl:holdingAgent>
+            <rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003089293"/>
+            <rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000003089293"/>
+            <dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID">000003089293</dcterms:identifier>
+            <dcndl:callNumber>GH334-A86</dcndl:callNumber>
+          </dcndl:Item>
+        </rdf:RDF>
+      </recordData>
+      <recordPosition>4</recordPosition>
+    </record>
+  </records>
+</searchRetrieveResponse>
