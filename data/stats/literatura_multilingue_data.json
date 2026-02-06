@@ -1,0 +1,1900 @@
+{
+    "global_1800_1850": {
+        "91": {
+            "total": 7076,
+            "langs": {
+                "jpn": 6760,
+                "eng": 209,
+                "chi": 7,
+                "ger": 48,
+                "fre": 44,
+                "rus": 1,
+                "dut": 4,
+                "spa": 2,
+                "ita": 4,
+                "others": 0
+            }
+        },
+        "92": {
+            "total": 708,
+            "langs": {
+                "jpn": 251,
+                "eng": 45,
+                "chi": 398,
+                "ger": 19,
+                "fre": 9,
+                "rus": 0,
+                "dut": 0,
+                "spa": 0,
+                "ita": 0,
+                "others": 0
+            }
+        },
+        "93": {
+            "total": 137,
+            "langs": {
+                "jpn": 5,
+                "eng": 124,
+                "chi": 0,
+                "ger": 2,
+                "fre": 3,
+                "rus": 1,
+                "dut": 0,
+                "spa": 0,
+                "ita": 0,
+                "others": 2
+            }
+        },
+        "94": {
+            "total": 318,
+            "langs": {
+                "jpn": 0,
+                "eng": 93,
+                "chi": 0,
+                "ger": 149,
+                "fre": 61,
+                "rus": 2,
+                "dut": 2,
+                "spa": 2,
+                "ita": 5,
+                "others": 4
+            }
+        },
+        "95": {
+            "total": 208,
+            "langs": {
+                "jpn": 0,
+                "eng": 43,
+                "chi": 1,
+                "ger": 3,
+                "fre": 155,
+                "rus": 0,
+                "dut": 3,
+                "spa": 0,
+                "ita": 0,
+                "others": 3
+            }
+        },
+        "96": {
+            "total": 31,
+            "langs": {
+                "jpn": 0,
+                "eng": 7,
+                "chi": 0,
+                "ger": 4,
+                "fre": 6,
+                "rus": 0,
+                "dut": 0,
+                "spa": 6,
+                "ita": 0,
+                "others": 8
+            }
+        },
+        "97": {
+            "total": 58,
+            "langs": {
+                "jpn": 0,
+                "eng": 44,
+                "chi": 0,
+                "ger": 7,
+                "fre": 6,
+                "rus": 0,
+                "dut": 0,
+                "spa": 2,
+                "ita": 0,
+                "others": 0
+            }
+        },
+        "98": {
+            "total": 9,
+            "langs": {
+                "jpn": 0,
+                "eng": 6,
+                "chi": 0,
+                "ger": 0,
+                "fre": 0,
+                "rus": 0,
+                "dut": 0,
+                "spa": 2,
+                "ita": 0,
+                "others": 1
+            }
+        },
+        "99": {
+            "total": 23,
+            "langs": {
+                "jpn": 0,
+                "eng": 13,
+                "chi": 0,
+                "ger": 0,
+                "fre": 10,
+                "rus": 0,
+                "dut": 0,
+                "spa": 0,
+                "ita": 0,
+                "others": 0
+            }
+        }
+    },
+    "global_1850_1920": {
+        "91": {
+            "total": 16242,
+            "langs": {
+                "jpn": 14141,
+                "eng": 1675,
+                "chi": 110,
+                "ger": 181,
+                "fre": 150,
+                "rus": 8,
+                "dut": 14,
+                "spa": 61,
+                "ita": 19,
+                "others": 0
+            }
+        },
+        "92": {
+            "total": 4699,
+            "langs": {
+                "jpn": 536,
+                "eng": 425,
+                "chi": 1960,
+                "ger": 157,
+                "fre": 79,
+                "rus": 1,
+                "dut": 5,
+                "spa": 29,
+                "ita": 5,
+                "others": 1502
+            }
+        },
+        "93": {
+            "total": 2266,
+            "langs": {
+                "jpn": 622,
+                "eng": 1472,
+                "chi": 4,
+                "ger": 92,
+                "fre": 45,
+                "rus": 0,
+                "dut": 1,
+                "spa": 4,
+                "ita": 9,
+                "others": 17
+            }
+        },
+        "94": {
+            "total": 2474,
+            "langs": {
+                "jpn": 117,
+                "eng": 862,
+                "chi": 0,
+                "ger": 871,
+                "fre": 371,
+                "rus": 59,
+                "dut": 24,
+                "spa": 35,
+                "ita": 76,
+                "others": 59
+            }
+        },
+        "95": {
+            "total": 1709,
+            "langs": {
+                "jpn": 119,
+                "eng": 570,
+                "chi": 10,
+                "ger": 22,
+                "fre": 970,
+                "rus": 24,
+                "dut": 3,
+                "spa": 2,
+                "ita": 0,
+                "others": 0
+            }
+        },
+        "96": {
+            "total": 878,
+            "langs": {
+                "jpn": 3,
+                "eng": 146,
+                "chi": 0,
+                "ger": 16,
+                "fre": 30,
+                "rus": 0,
+                "dut": 1,
+                "spa": 90,
+                "ita": 0,
+                "others": 592
+            }
+        },
+        "97": {
+            "total": 744,
+            "langs": {
+                "jpn": 20,
+                "eng": 632,
+                "chi": 0,
+                "ger": 13,
+                "fre": 27,
+                "rus": 0,
+                "dut": 0,
+                "spa": 28,
+                "ita": 24,
+                "others": 0
+            }
+        },
+        "98": {
+            "total": 312,
+            "langs": {
+                "jpn": 133,
+                "eng": 59,
+                "chi": 0,
+                "ger": 5,
+                "fre": 14,
+                "rus": 10,
+                "dut": 0,
+                "spa": 46,
+                "ita": 1,
+                "others": 44
+            }
+        },
+        "99": {
+            "total": 243,
+            "langs": {
+                "jpn": 8,
+                "eng": 115,
+                "chi": 0,
+                "ger": 14,
+                "fre": 68,
+                "rus": 0,
+                "dut": 0,
+                "spa": 2,
+                "ita": 0,
+                "others": 36
+            }
+        }
+    },
+    "decades": {
+        "1800s": {
+            "91": {
+                "total": 3765,
+                "langs": {
+                    "jpn": 3713,
+                    "eng": 34,
+                    "chi": 2,
+                    "ger": 6,
+                    "fre": 10,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "92": {
+                "total": 299,
+                "langs": {
+                    "jpn": 110,
+                    "eng": 14,
+                    "chi": 178,
+                    "ger": 2,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "93": {
+                "total": 62,
+                "langs": {
+                    "jpn": 5,
+                    "eng": 54,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 2,
+                    "rus": 1,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "94": {
+                "total": 63,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 24,
+                    "chi": 0,
+                    "ger": 21,
+                    "fre": 13,
+                    "rus": 0,
+                    "dut": 2,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 2
+                }
+            },
+            "95": {
+                "total": 154,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 10,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 142,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 1
+                }
+            },
+            "96": {
+                "total": 15,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 2,
+                    "chi": 0,
+                    "ger": 2,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 8
+                }
+            },
+            "97": {
+                "total": 8,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 7,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 0,
+                "langs": {}
+            },
+            "99": {
+                "total": 10,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 3,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 7,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            }
+        },
+        "1810s": {
+            "91": {
+                "total": 854,
+                "langs": {
+                    "jpn": 809,
+                    "eng": 26,
+                    "chi": 0,
+                    "ger": 5,
+                    "fre": 9,
+                    "rus": 0,
+                    "dut": 1,
+                    "spa": 0,
+                    "ita": 2,
+                    "others": 2
+                }
+            },
+            "92": {
+                "total": 97,
+                "langs": {
+                    "jpn": 44,
+                    "eng": 3,
+                    "chi": 53,
+                    "ger": 0,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "93": {
+                "total": 13,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 9,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 2
+                }
+            },
+            "94": {
+                "total": 29,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 10,
+                    "chi": 0,
+                    "ger": 14,
+                    "fre": 5,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "95": {
+                "total": 7,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 4,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 1,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 1
+                }
+            },
+            "96": {
+                "total": 3,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 1,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "97": {
+                "total": 2,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 2,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 0,
+                "langs": {}
+            },
+            "99": {
+                "total": 3,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 2,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            }
+        },
+        "1820s": {
+            "91": {
+                "total": 831,
+                "langs": {
+                    "jpn": 787,
+                    "eng": 29,
+                    "chi": 1,
+                    "ger": 6,
+                    "fre": 8,
+                    "rus": 0,
+                    "dut": 1,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "92": {
+                "total": 101,
+                "langs": {
+                    "jpn": 35,
+                    "eng": 7,
+                    "chi": 63,
+                    "ger": 4,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "93": {
+                "total": 25,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 24,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "94": {
+                "total": 44,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 14,
+                    "chi": 0,
+                    "ger": 24,
+                    "fre": 3,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 2,
+                    "others": 1
+                }
+            },
+            "95": {
+                "total": 14,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 11,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 3,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "96": {
+                "total": 5,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 2,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "97": {
+                "total": 3,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 2,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 4,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 3,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "99": {
+                "total": 2,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 2,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            }
+        },
+        "1830s": {
+            "91": {
+                "total": 756,
+                "langs": {
+                    "jpn": 696,
+                    "eng": 38,
+                    "chi": 1,
+                    "ger": 9,
+                    "fre": 10,
+                    "rus": 0,
+                    "dut": 2,
+                    "spa": 0,
+                    "ita": 1,
+                    "others": 0
+                }
+            },
+            "92": {
+                "total": 114,
+                "langs": {
+                    "jpn": 44,
+                    "eng": 4,
+                    "chi": 55,
+                    "ger": 5,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 5
+                }
+            },
+            "93": {
+                "total": 11,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 11,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "94": {
+                "total": 63,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 13,
+                    "chi": 0,
+                    "ger": 32,
+                    "fre": 16,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 2
+                }
+            },
+            "95": {
+                "total": 15,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 10,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 2,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 1
+                }
+            },
+            "96": {
+                "total": 4,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 2,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 2,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "97": {
+                "total": 14,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 7,
+                    "chi": 0,
+                    "ger": 3,
+                    "fre": 3,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 1,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 1,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "99": {
+                "total": 3,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 3,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            }
+        },
+        "1840s": {
+            "91": {
+                "total": 733,
+                "langs": {
+                    "jpn": 627,
+                    "eng": 76,
+                    "chi": 3,
+                    "ger": 21,
+                    "fre": 5,
+                    "rus": 1,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 1,
+                    "others": 0
+                }
+            },
+            "92": {
+                "total": 87,
+                "langs": {
+                    "jpn": 13,
+                    "eng": 16,
+                    "chi": 43,
+                    "ger": 8,
+                    "fre": 4,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 3
+                }
+            },
+            "93": {
+                "total": 19,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 19,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "94": {
+                "total": 107,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 29,
+                    "chi": 0,
+                    "ger": 52,
+                    "fre": 23,
+                    "rus": 2,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 1,
+                    "others": 0
+                }
+            },
+            "95": {
+                "total": 16,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 7,
+                    "chi": 0,
+                    "ger": 2,
+                    "fre": 6,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 1
+                }
+            },
+            "96": {
+                "total": 2,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 0,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "97": {
+                "total": 28,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 23,
+                    "chi": 0,
+                    "ger": 3,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 3,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 2,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 1
+                }
+            },
+            "99": {
+                "total": 5,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 3,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            }
+        },
+        "1850s": {
+            "91": {
+                "total": 839,
+                "langs": {
+                    "jpn": 687,
+                    "eng": 118,
+                    "chi": 1,
+                    "ger": 19,
+                    "fre": 10,
+                    "rus": 1,
+                    "dut": 3,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "92": {
+                "total": 84,
+                "langs": {
+                    "jpn": 22,
+                    "eng": 16,
+                    "chi": 36,
+                    "ger": 8,
+                    "fre": 6,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "93": {
+                "total": 43,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 41,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 1
+                }
+            },
+            "94": {
+                "total": 133,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 39,
+                    "chi": 0,
+                    "ger": 45,
+                    "fre": 44,
+                    "rus": 1,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 5,
+                    "others": 0
+                }
+            },
+            "95": {
+                "total": 27,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 15,
+                    "chi": 1,
+                    "ger": 1,
+                    "fre": 10,
+                    "rus": 1,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "96": {
+                "total": 12,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 5,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 3,
+                    "ita": 0,
+                    "others": 3
+                }
+            },
+            "97": {
+                "total": 27,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 25,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 3,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 1,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 1
+                }
+            },
+            "99": {
+                "total": 9,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 6,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 2
+                }
+            }
+        },
+        "1860s": {
+            "91": {
+                "total": 606,
+                "langs": {
+                    "jpn": 454,
+                    "eng": 115,
+                    "chi": 3,
+                    "ger": 16,
+                    "fre": 11,
+                    "rus": 1,
+                    "dut": 4,
+                    "spa": 0,
+                    "ita": 1,
+                    "others": 1
+                }
+            },
+            "92": {
+                "total": 114,
+                "langs": {
+                    "jpn": 16,
+                    "eng": 28,
+                    "chi": 46,
+                    "ger": 9,
+                    "fre": 6,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 9
+                }
+            },
+            "93": {
+                "total": 65,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 65,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 3,
+                    "others": 0
+                }
+            },
+            "94": {
+                "total": 106,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 15,
+                    "chi": 0,
+                    "ger": 57,
+                    "fre": 27,
+                    "rus": 1,
+                    "dut": 2,
+                    "spa": 1,
+                    "ita": 5,
+                    "others": 0
+                }
+            },
+            "95": {
+                "total": 28,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 14,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 11,
+                    "rus": 2,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "96": {
+                "total": 13,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 0,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 2,
+                    "ita": 0,
+                    "others": 11
+                }
+            },
+            "97": {
+                "total": 40,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 34,
+                    "chi": 0,
+                    "ger": 3,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 3,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 6,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 5,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 1
+                }
+            },
+            "99": {
+                "total": 7,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 3,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 0
+                }
+            }
+        },
+        "1870s": {
+            "91": {
+                "total": 859,
+                "langs": {
+                    "jpn": 693,
+                    "eng": 130,
+                    "chi": 18,
+                    "ger": 13,
+                    "fre": 12,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 3,
+                    "ita": 1,
+                    "others": 0
+                }
+            },
+            "92": {
+                "total": 242,
+                "langs": {
+                    "jpn": 67,
+                    "eng": 23,
+                    "chi": 88,
+                    "ger": 13,
+                    "fre": 11,
+                    "rus": 1,
+                    "dut": 0,
+                    "spa": 3,
+                    "ita": 0,
+                    "others": 36
+                }
+            },
+            "93": {
+                "total": 105,
+                "langs": {
+                    "jpn": 11,
+                    "eng": 74,
+                    "chi": 0,
+                    "ger": 16,
+                    "fre": 3,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 1
+                }
+            },
+            "94": {
+                "total": 194,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 48,
+                    "chi": 0,
+                    "ger": 95,
+                    "fre": 46,
+                    "rus": 1,
+                    "dut": 0,
+                    "spa": 2,
+                    "ita": 1,
+                    "others": 1
+                }
+            },
+            "95": {
+                "total": 63,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 38,
+                    "chi": 0,
+                    "ger": 3,
+                    "fre": 20,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 2
+                }
+            },
+            "96": {
+                "total": 32,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 6,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 3,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 3,
+                    "ita": 0,
+                    "others": 19
+                }
+            },
+            "97": {
+                "total": 28,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 25,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 4,
+                    "ita": 1,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 8,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 6,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 2,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "99": {
+                "total": 21,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 8,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 9,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 4
+                }
+            }
+        },
+        "1880s": {
+            "91": {
+                "total": 2531,
+                "langs": {
+                    "jpn": 2316,
+                    "eng": 161,
+                    "chi": 32,
+                    "ger": 20,
+                    "fre": 14,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 4,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "92": {
+                "total": 379,
+                "langs": {
+                    "jpn": 122,
+                    "eng": 42,
+                    "chi": 129,
+                    "ger": 20,
+                    "fre": 12,
+                    "rus": 0,
+                    "dut": 2,
+                    "spa": 1,
+                    "ita": 1,
+                    "others": 50
+                }
+            },
+            "93": {
+                "total": 306,
+                "langs": {
+                    "jpn": 123,
+                    "eng": 174,
+                    "chi": 1,
+                    "ger": 5,
+                    "fre": 4,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "94": {
+                "total": 183,
+                "langs": {
+                    "jpn": 6,
+                    "eng": 77,
+                    "chi": 0,
+                    "ger": 53,
+                    "fre": 34,
+                    "rus": 0,
+                    "dut": 1,
+                    "spa": 1,
+                    "ita": 7,
+                    "others": 4
+                }
+            },
+            "95": {
+                "total": 102,
+                "langs": {
+                    "jpn": 16,
+                    "eng": 38,
+                    "chi": 2,
+                    "ger": 0,
+                    "fre": 45,
+                    "rus": 2,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "96": {
+                "total": 41,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 10,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 1,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 28
+                }
+            },
+            "97": {
+                "total": 90,
+                "langs": {
+                    "jpn": 2,
+                    "eng": 81,
+                    "chi": 0,
+                    "ger": 2,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 2,
+                    "ita": 1,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 13,
+                "langs": {
+                    "jpn": 1,
+                    "eng": 2,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 4,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 4,
+                    "ita": 0,
+                    "others": 1
+                }
+            },
+            "99": {
+                "total": 18,
+                "langs": {
+                    "jpn": 1,
+                    "eng": 10,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 5,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 2
+                }
+            }
+        },
+        "1890s": {
+            "91": {
+                "total": 2830,
+                "langs": {
+                    "jpn": 2513,
+                    "eng": 274,
+                    "chi": 13,
+                    "ger": 15,
+                    "fre": 16,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 3,
+                    "ita": 2,
+                    "others": 0
+                }
+            },
+            "92": {
+                "total": 513,
+                "langs": {
+                    "jpn": 74,
+                    "eng": 75,
+                    "chi": 182,
+                    "ger": 21,
+                    "fre": 9,
+                    "rus": 0,
+                    "dut": 1,
+                    "spa": 3,
+                    "ita": 2,
+                    "others": 146
+                }
+            },
+            "93": {
+                "total": 281,
+                "langs": {
+                    "jpn": 92,
+                    "eng": 174,
+                    "chi": 0,
+                    "ger": 10,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 1,
+                    "others": 2
+                }
+            },
+            "94": {
+                "total": 264,
+                "langs": {
+                    "jpn": 2,
+                    "eng": 129,
+                    "chi": 0,
+                    "ger": 68,
+                    "fre": 45,
+                    "rus": 6,
+                    "dut": 3,
+                    "spa": 2,
+                    "ita": 3,
+                    "others": 6
+                }
+            },
+            "95": {
+                "total": 175,
+                "langs": {
+                    "jpn": 6,
+                    "eng": 70,
+                    "chi": 0,
+                    "ger": 4,
+                    "fre": 98,
+                    "rus": 3,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "96": {
+                "total": 63,
+                "langs": {
+                    "jpn": 1,
+                    "eng": 30,
+                    "chi": 0,
+                    "ger": 3,
+                    "fre": 4,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 25
+                }
+            },
+            "97": {
+                "total": 103,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 91,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 2,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 4,
+                    "ita": 5,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 24,
+                "langs": {
+                    "jpn": 1,
+                    "eng": 11,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 2,
+                    "rus": 2,
+                    "dut": 0,
+                    "spa": 6,
+                    "ita": 0,
+                    "others": 2
+                }
+            },
+            "99": {
+                "total": 32,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 18,
+                    "chi": 0,
+                    "ger": 1,
+                    "fre": 10,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 3
+                }
+            }
+        },
+        "1900s": {
+            "91": {
+                "total": 4335,
+                "langs": {
+                    "jpn": 3593,
+                    "eng": 583,
+                    "chi": 25,
+                    "ger": 83,
+                    "fre": 73,
+                    "rus": 3,
+                    "dut": 3,
+                    "spa": 38,
+                    "ita": 7,
+                    "others": 0
+                }
+            },
+            "92": {
+                "total": 2611,
+                "langs": {
+                    "jpn": 121,
+                    "eng": 152,
+                    "chi": 1312,
+                    "ger": 48,
+                    "fre": 22,
+                    "rus": 0,
+                    "dut": 1,
+                    "spa": 11,
+                    "ita": 0,
+                    "others": 944
+                }
+            },
+            "93": {
+                "total": 911,
+                "langs": {
+                    "jpn": 218,
+                    "eng": 599,
+                    "chi": 1,
+                    "ger": 45,
+                    "fre": 27,
+                    "rus": 0,
+                    "dut": 1,
+                    "spa": 2,
+                    "ita": 4,
+                    "others": 14
+                }
+            },
+            "94": {
+                "total": 823,
+                "langs": {
+                    "jpn": 14,
+                    "eng": 296,
+                    "chi": 0,
+                    "ger": 290,
+                    "fre": 97,
+                    "rus": 31,
+                    "dut": 17,
+                    "spa": 14,
+                    "ita": 24,
+                    "others": 40
+                }
+            },
+            "95": {
+                "total": 759,
+                "langs": {
+                    "jpn": 13,
+                    "eng": 239,
+                    "chi": 4,
+                    "ger": 11,
+                    "fre": 463,
+                    "rus": 8,
+                    "dut": 2,
+                    "spa": 2,
+                    "ita": 0,
+                    "others": 17
+                }
+            },
+            "96": {
+                "total": 401,
+                "langs": {
+                    "jpn": 1,
+                    "eng": 73,
+                    "chi": 0,
+                    "ger": 7,
+                    "fre": 15,
+                    "rus": 0,
+                    "dut": 1,
+                    "spa": 39,
+                    "ita": 0,
+                    "others": 265
+                }
+            },
+            "97": {
+                "total": 257,
+                "langs": {
+                    "jpn": 2,
+                    "eng": 210,
+                    "chi": 0,
+                    "ger": 5,
+                    "fre": 15,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 15,
+                    "ita": 5,
+                    "others": 5
+                }
+            },
+            "98": {
+                "total": 109,
+                "langs": {
+                    "jpn": 21,
+                    "eng": 17,
+                    "chi": 0,
+                    "ger": 2,
+                    "fre": 8,
+                    "rus": 8,
+                    "dut": 0,
+                    "spa": 21,
+                    "ita": 1,
+                    "others": 31
+                }
+            },
+            "99": {
+                "total": 91,
+                "langs": {
+                    "jpn": 0,
+                    "eng": 39,
+                    "chi": 0,
+                    "ger": 2,
+                    "fre": 35,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 1,
+                    "ita": 0,
+                    "others": 14
+                }
+            }
+        },
+        "1910s": {
+            "91": {
+                "total": 4242,
+                "langs": {
+                    "jpn": 3885,
+                    "eng": 294,
+                    "chi": 18,
+                    "ger": 15,
+                    "fre": 14,
+                    "rus": 3,
+                    "dut": 4,
+                    "spa": 12,
+                    "ita": 8,
+                    "others": 0
+                }
+            },
+            "92": {
+                "total": 756,
+                "langs": {
+                    "jpn": 114,
+                    "eng": 89,
+                    "chi": 167,
+                    "ger": 38,
+                    "fre": 13,
+                    "rus": 0,
+                    "dut": 1,
+                    "spa": 11,
+                    "ita": 2,
+                    "others": 321
+                }
+            },
+            "93": {
+                "total": 555,
+                "langs": {
+                    "jpn": 178,
+                    "eng": 345,
+                    "chi": 2,
+                    "ger": 15,
+                    "fre": 9,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 2,
+                    "ita": 1,
+                    "others": 3
+                }
+            },
+            "94": {
+                "total": 771,
+                "langs": {
+                    "jpn": 95,
+                    "eng": 258,
+                    "chi": 0,
+                    "ger": 263,
+                    "fre": 78,
+                    "rus": 19,
+                    "dut": 1,
+                    "spa": 14,
+                    "ita": 31,
+                    "others": 12
+                }
+            },
+            "95": {
+                "total": 555,
+                "langs": {
+                    "jpn": 84,
+                    "eng": 156,
+                    "chi": 3,
+                    "ger": 2,
+                    "fre": 323,
+                    "rus": 8,
+                    "dut": 1,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 0
+                }
+            },
+            "96": {
+                "total": 316,
+                "langs": {
+                    "jpn": 1,
+                    "eng": 22,
+                    "chi": 0,
+                    "ger": 3,
+                    "fre": 7,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 42,
+                    "ita": 0,
+                    "others": 241
+                }
+            },
+            "97": {
+                "total": 199,
+                "langs": {
+                    "jpn": 16,
+                    "eng": 166,
+                    "chi": 0,
+                    "ger": 0,
+                    "fre": 6,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 2,
+                    "ita": 9,
+                    "others": 0
+                }
+            },
+            "98": {
+                "total": 149,
+                "langs": {
+                    "jpn": 110,
+                    "eng": 17,
+                    "chi": 0,
+                    "ger": 2,
+                    "fre": 0,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 12,
+                    "ita": 0,
+                    "others": 8
+                }
+            },
+            "99": {
+                "total": 65,
+                "langs": {
+                    "jpn": 7,
+                    "eng": 31,
+                    "chi": 0,
+                    "ger": 10,
+                    "fre": 6,
+                    "rus": 0,
+                    "dut": 0,
+                    "spa": 0,
+                    "ita": 0,
+                    "others": 11
+                }
+            }
+        }
+    }
+}

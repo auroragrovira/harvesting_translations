@@ -1,4 +1,28 @@
 __pycache__/
 *.pyc
 .DS_Store
-api_keys
+
+# Configuración y Claves (Privado)
+config/api_keys
+
+# Documentos Internos (Privado/Tesis)
+docs/metodologia_humanidades_digitales.txt
+docs/README_2.md
+reports/synthesis/analisis_resumen_ndc.txt
+
+# Datos Crudos (Tamaño excesivo)
+*.jsonl
+*.xml
+*.checkpoint
+*_checkpoint.json
+Nichibunken/resultados/
+univ_jp/1/
+univ_jp/2/
+univ_jp/3/
+univ_jp/18*/
+univ_jp/19*/
+Waseda/*.jsonl
+osaka/*.jsonl
+tokyo/*.jsonl
+sample_compl/
+data/raw/
