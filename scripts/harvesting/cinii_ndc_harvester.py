@@ -11,8 +11,8 @@ BASE_URL = "https://ci.nii.ac.jp/books/opensearch/search"
 YEAR_MIN, YEAR_MAX = 1850, 1920
 RECORDS_PER_PAGE = 200
 DELAY_BASE = 1.2  # Respetando límites de la API
-OUTPUT_BASE_DIR = os.path.join("univ_jp", "3")
-CHECKPOINT_FILE = os.path.join("univ_jp", "cinii_checkpoint_ndc.json")
+OUTPUT_BASE_DIR = os.path.join("data", "cinii", "v3_by_ndc_lang")
+CHECKPOINT_FILE = os.path.join("data", "cinii", "cinii_checkpoint_ndc.json")
 
 LANG_MAP = {
     None: "ALL",

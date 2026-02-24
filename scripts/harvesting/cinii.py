@@ -18,8 +18,8 @@ BASE_URL = "https://ci.nii.ac.jp/books/opensearch/search"
 YEAR_MIN, YEAR_MAX = 1850, 1920
 RECORDS_PER_PAGE = 200
 DELAY_BASE = 1.0
-CHECKPOINT_FILE = os.path.join("univ_jp", "cinii_checkpoint_v2.json")
-OUTPUT_DIR = os.path.join("univ_jp", "2")
+CHECKPOINT_FILE = os.path.join("data", "cinii", "cinii_checkpoint_v2.json")
+OUTPUT_DIR = os.path.join("data", "cinii", "v2_by_lang")
 
 # Mapeo de códigos de idioma para nombres de archivo (ISO 639-2/B)
 LANG_MAP = {

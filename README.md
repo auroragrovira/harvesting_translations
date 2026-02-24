@@ -13,55 +13,58 @@ Esta investigación presenta **resultados parciales de la tesis doctoral** titul
 
 ## 🚀 Funcionalidades y Fases del Proyecto
 
-### 1. Recolección Multifuente (Harvesting)
+### 1. Recolección Multifuente (Harvesting) (`scripts/harvesting/`)
 El proyecto implementa scrapers y conectores especializados utilizando protocolos OAI-PMH, OpenSearch API y técnicas avanzadas de web scraping:
 
-*   **CiNii Books (NII)**: Motor de búsqueda nacional para el barrido exhaustivo de libros y revistas mediante la API de NII, con soporte para gestión de checkpoints y persistencia de datos.
+*   **CiNii Books (NII)** (`cinii.py`, `cinii_ndc_harvester.py`): Motor de búsqueda nacional para el barrido exhaustivo de libros y revistas mediante la API de NII, con soporte para gestión de checkpoints y persistencia de datos.
+*   **Repositorios Universitarios**: Conectores específicos para la **Universidad de Tokio** (`tokyo.py`), **Universidad de Waseda** (`scrap_waseda.py`), **Universidad de Osaka** (`ouka.py`) y **Nichibunken**.
 *   **National Diet Library (NDL)**: Procesador de registros masivos de la Biblioteca Nacional de la Dieta.
-*   **Repositorios Universitarios**: Conectores específicos para la **Universidad de Tokio**, **Universidad de Waseda** y **Universidad de Osaka (Ouka)**.
-*   **Nichibunken**: Sistema de cosecha de fondos del International Research Center for Japanese Studies.
 
-### 2. Curaduría y Limpieza con IA (AI-Powered Curation)
-Implementación de modelos de lenguaje (LLMs como GPT-4) para la normalización de metadatos históricos:
-*   **Corrección Estructural**: Realineación automática de columnas y sanación de errores de parsing en registros antiguos.
-*   **Enriquecimiento Semántico**: Detección de entidades, roles de autoría y corrección de códigos de idioma ISO-639.
-*   **Muestreo Validado**: Protocolos de validación cruzada para asegurar la representatividad estadística del corpus frente al universo absoluto del catálogo nacional.
+### 2. Curaduría y Organización de Datos (`data/`)
+Los datos recolectados se almacenan de forma estructurada:
+*   **`data/cinii/`**: Datos de CiNii organizados por versiones (`v1_basic`, `v2_by_lang`, `v3_by_ndc_lang`).
+*   **`data/ndl/`, `data/waseda/`, etc.**: Datos específicos de cada institución.
 
-### 3. Análisis Estadístico y Humanidades Digitales
+### 3. Tratamiento de Sesgos de Datos (`scripts/processing/`)
+El proyecto aborda anomalías de catalogación históricas:
+*   **Corrección del Sesgo de 1900**: Detección y mitigación del pico artificial de registros en el año 1900 (causado por la asignación por defecto de registros sin fecha "19--").
+*   **Enriquecimiento de Informes**: El script `generate_enriched_reports.py` aplica factores de corrección estadísticos para generar versiones precisas de la distribución de idiomas y materias.
+
+### 4. Análisis Estadístico y Humanidades Digitales (`scripts/analysis/`, `reports/`)
 Módulo avanzado para la generación de conocimiento historiográfico basado en datos:
-*   **Análisis NDC (Materia)**: Clasificación temática basada en la Clasificación Decimal Nipona (NDC) para rastrear el giro tecnológico y literario del país.
-*   **Matrices de Multilingüismo**: Estudio de la correlación entre idioma y materia, identificando el papel del **Inglés como infraestructura de intermediación** cultural.
-*   **Heurísticas de Traducción**: Cuantificación del trasvase cultural mediante el análisis de clusters terminológicos (`訳`, `翻訳`, `訳者`) en el catálogo nacional.
+*   **Análisis NDC (Materia)**: Clasificación temática basada en la Clasificación Decimal Nipona (NDC).
+    *   `analisis_temas_tiempo.py`: Estudia la evolución temporal de las materias.
+    *   `process_ndc_stats.py`: Genera estadísticas agregadas por NDC.
+*   **Matrices de Multilingüismo**: Estudio de la correlación entre idioma y materia (`fetch_api_matrix.py`).
+*   **Heurísticas de Traducción**: Cuantificación del trasvase cultural mediante el análisis de clusters terminológicos.
 
 ---
 
-## 📂 Documentación y Resultados Técnicos
+## 📂 Estructura del Proyecto
 
-Este repositorio contiene un ecosistema de herramientas en Python diseñadas para el harvesting, procesamiento y análisis macro-estadístico del catálogo nacional japonés (CiNii Books).
-
-### 1. Módulos de Cosecha y Análisis por Materia (NDC)
-*   `cinii_ndc_harvester.py`: Extracción masiva de metadatos segmentados por códigos NDC.
-*   `fetch_ndc_api_stats.py`: Consulta universos absolutos de registros vía API.
-*   `fetch_api_matrix.py`: Correlación entre códigos NDC e idioma (`dc:language`).
-*   `fetch_api_evolution.py`: Evolución de proporciones idiomáticas por décadas.
-*   **Informes clave**: `cinii_resumen_ndc_api.md`, `cinii_evolucion_proporciones.md`.
-
-### 2. Análisis del Periodo Edo (1800-1850)
-*   `fetch_edo_stats.py`: Estadísticas e idiomas del arco pre-moderno.
-*   `fetch_edo_translation_stats.py`: Detección heurística de traducciones pre-Meiji.
-*   **Informes clave**: `cinii_edo_resumen.md`, `cinii_edo_traducciones.md`.
-
-### 3. Análisis de Literatura y Subcategorías (NDC 9)
-*   `fetch_lite_subcategories.py`: Desglose de subcategorías literarias en japonés.
-*   `fetch_lite_all_langs.py`: Análisis multilingüe para identificar lenguas puente (Inglés).
-*   **Informes clave**: `analisis_literatura.md`, `analisis_literatura_multilingue.md`.
-
-### 4. Diagnóstico y Calidad de Datos
-*   `fetch_translation_stats.py`: Motor de detección de traducciones (keywords `訳`, `翻訳`).
-*   `check_lang_metadata.py`: Auditoría del campo de metadatos de idioma.
-*   `verify_samples.py`: Validación de representatividad frente a la API oficial.
-*   `analyze_duplicates.py` / `analyze_missing.py`: Control de calidad del corpus local.
-
+```text
+harvesting_translations/
+├── data/                       # Datos crudos y procesados
+│   ├── cinii/                  # Datos de CiNii (v1, v2, v3)
+│   ├── ndl/                    # Datos National Diet Library
+│   ├── waseda/                 # Datos Waseda University
+│   ├── tokyo/                  # Datos UTokyo
+│   ├── osaka/                  # Datos Osaka University
+│   ├── nichibunken/            # Datos Nichibunken
+│   └── stats/                  # Agregados estadísticos en JSON
+├── scripts/                    # Código fuente
+│   ├── analysis/               # Generación de informes
+│   ├── harvesting/             # Scrapers y conectores de APIs
+│   └── processing/             # Limpieza y corrección de sesgos (p. ej. 1900)
+├── reports/                    # Resultados del análisis
+│   ├── historical/             # Informes históricos base
+│   ├── enriched_historical/    # Informes históricos corregidos (sin sesgo 1900)
+│   ├── specific/               # Informes temáticos específicos
+│   ├── enriched_specific/      # Informes temáticos corregidos
+│   └── csv/                    # Tablas de datos agregados en CSV
+├── config/                     # Archivos de configuración
+└── requirements.txt            # Dependencias del proyecto
+```
 
 ---
 
@@ -69,13 +72,17 @@ Este repositorio contiene un ecosistema de herramientas en Python diseñadas par
 
 ### Requisitos Técnicos
 *   Python 3.8+
-*   Dependencias: `pandas`, `requests`, `openpyxl`.
+*   Dependencias listadas en `requirements.txt`.
+
+### Instalación
+1.  Clonar el repositorio.
+2.  Instalar dependencias:
     ```bash
-    pip install pandas requests openpyxl
+    pip install -r requirements.txt
     ```
 
 ### Gestión de Claves (API Credentials)
-El proyecto requiere un archivo `api_keys` en la raíz (ignorado por Git por seguridad) con el siguiente formato:
+El proyecto requiere un archivo `api_keys` en la raíz (ignorado por Git por seguridad) con el siguiente formato para usar funcionalidades avanzadas de IA o cuotas aumentadas de CiNii:
 ```text
 chatGPT=sk-tu_clave_openai
 cinii=tu_appid_nii_aqui

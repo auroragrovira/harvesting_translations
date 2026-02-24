@@ -1,0 +1,72 @@
+ANÁLISIS ESTRATÉGICO Y CRÍTICO DEL CORPUS BIBLIOGRÁFICO NACIONAL (CiNii: 1800-1920)
+
+NOTA ACADÉMICA: Esta investigación constituye un avance de resultados parciales de la tesis doctoral "El cambio en el campo literario. El caso del Japón Meiji a través de la figura de Tsubouchi Shoyo", enmarcada en el programa doctoral en Humanidades para el mundo contemporáneo de CEINDO (Escuela Internacional de Doctorado CEU).
+
+El presente informe detalla los hallazgos derivados del análisis cuantitativo y cualitativo de la producción editorial en Japón, orientado por la Clasificación Decimal Nipona (NDC). El estudio integra datos del corpus institucional segmentado y verificaciones masivas mediante protocolos API, permitiendo una reconstrucción técnica de la historia intelectual japonesa en su arco de mayor transformación.
+
+1. ESTRUCTURA Y COMPOSICIÓN DEL CORPUS LOCAL
+El análisis primario se sustenta en una muestra institucional segmentada (CiS) correspondiente al intervalo 1850-1920. La distribución actual presenta una alta densidad en áreas técnicas y lingüísticas, constituyendo una base representativa para el estudio de la modernización estructural del Estado Meiji.
+
+2. TAXONOMÍA Y DINÁMICAS POR ÁREAS DEL CONOCIMIENTO (NDC)
+
+   A. Sector Industrial y Técnico (NDC 6): Predominio Nacional
+      Con un volumen aproximado de 55,000 unidades bibliográficas, esta categoría es la más robusta de la muestra. La hegemonía de la lengua japonesa (93%) revela que la literatura técnica e industrial fue producto de una intensa labor de producción endógena o de una profunda intervención traductiva que asimiló los estándares internacionales al canon nacional para facilitar la industrialización acelerada.
+
+   B. Filología y Corpus Literario (NDC 8 y 9)
+      - Distribución Lingüística en Filología: Se observa una notable cuota de registros en alemán (10%) y chino (10%), lo que evidencia el rigor académico enfocado en las potencias intelectuales de la época.
+      - Influencia en Literatura: La convergencia de los idiomas inglés y chino (11% cada uno) refleja la dualidad del imaginario japonés: la persistencia del canon clásico oriental y la irrupción del paradigma estético occidental.
+
+   C. Singularidad en el Ámbito Filosófico (NDC 1)
+      Esta categoría presenta una anomalía estadística significativa: el francés (41.96%) supera al japonés (41.23%) como lengua de registro. Este fenómeno sugiere una dependencia estructural de las fuentes francesas para la construcción del discurso filosófico contemporáneo en Japón durante este segmento temporal.
+
+   D. Documentación Artística (NDC 7)
+      La prevalencia del inglés (22.88%) indica que la teoría del arte y la historiografía estética durante la modernización transitaron predominantemente a través de la mediación anglosajona.
+
+3. VALIDACIÓN MEDIANTE MATRIZ API (NII - CiNii Books)
+
+La verificación contrastada con el universo absoluto de la API de CiNii (aprox. 1.23 millones de registros para 1850-1920) ratifica la consistencia del estudio:
+- Representatividad Técnica: El corpus local de Industria (NDC 6) alcanza una cobertura cercana al 100% respecto al catálogo nacional oficial.
+- Asimetría Idiomática Global: El universo absoluto revela una distribución tripartita equilibrada entre el Inglés (26.7%), el Japonés (26.1%) y el Alemán (25.6%), confirmando la naturaleza políglota de la formación académica japonesa antes de 1920.
+
+4. TRAYECTORIA HISTÓRICA Y PUNTOS DE INFLEXIÓN (1850-1920)
+
+   A. Alternancia de Liderazgo Intelectual:
+      La década de 1890 representa el "Cénit Germánico", donde el alemán superó al japonés e inglés con una cuota del 32.2%, correlacionado con la adopción de los modelos legislativos y médicos de Prusia. A partir de 1900, el inglés se consolida como la infraestructura lingüística dominante (30.7% en 1920).
+
+   B. La Huella Bibliográfica de la Restauración (1870):
+      Se detecta un desplazamiento masivo de la producción clasificada en Industria (NDC 6), que escaló del 9.4% al 50.1% en un solo decenio, marcando el hito documental de la Restauración Meiji de 1868.
+
+5. EL FENÓMENO DEL TRASVASE TRADUCTOLÓGICO
+
+A través de una heurística de detección basada en clusters terminológicos (訳, 翻訳, 訳者), se ha cuantificado la intensidad de la traducción al japonés:
+- Evolución de la Tasa de Traducción: De un 3.2% en 1850 a un 7.0% en 1920. Este crecimiento lineal demuestra que el japonés moderno se estructuró mediante la importación y habituación sistemática de textos extranjeros.
+- Sectores con Alta Permeabilidad: Las Artes (18.18%) y el Lenguaje (14%) lideran el índice de trasvase, mientras que la Literatura (5.41%) sugiere formas de adaptación menos explícitas en los metadatos.
+
+6. EL PERIODO EDO (1800-1850): EL PRELUDIO DEL SISTEMA
+
+El análisis de la transición Tokugawa-Meiji revela un panorama de alta concentración nacional bajo el régimen de Sakoku:
+   - Hegemonía Vernácula: El japonés representaba el 49.58% del catálogo, reflejando un sistema bibliográfico autorreferencial.
+   - Centralidad Continental: El chino constituía el 10.65% de la producción, confirmando la posición de China como referente cultural dominante prepandémico.
+   - El Legado del Rangaku: La presencia de latín (2.15%) y holandés (0.53%) constituye el testimonio bibliográfico de la ciencia occidental filtrada antes de la apertura oficial.
+
+7. EL MAPA DE LA LITERATURA MUNDIAL EN JAPÓN (NDC 9)
+
+El desglose de la categoría "Literatura" ofrece una métrica precisa de la penetración cultural:
+   - Del Monólogo Edo al Diálogo Moderno: En la primera mitad del XIX, la literatura japonesa (910) dominaba el 96.35% del sistema. A partir de 1880, la literatura inglesa/americana (930) se establece como la primera potencia externa.
+   - Diversificación Estética (1910s): La última década del estudio registra la irrupción de las literaturas rusa (2.45%), alemana (2.12%) y francesa (1.87%) en lengua japonesa.
+
+8. EL INGLÉS COMO INFRAESTRUCTURA DE INTERMEDIACIÓN
+
+   - La Intermediación Lingüística: Para literaturas europeas menos frecuentes, el inglés funcionó como lengua puente. El 85% de los registros de literatura italiana están en inglés, sugiriendo un acceso mediado por el canon anglosajón.
+   - Trasvase Inverso: El 10.3% de la literatura japonesa (910) se registra en inglés, evidenciando la actividad de los primeros núcleos de traducción e interpretación internacional de la cultura nipona.
+
+9. PROTOCOLO METODOLÓGICO Y FUENTES
+
+Se consignan los siguientes estándares para asegurar la integridad académica:
+   A. Validación de Corpus Local (CiS): Procesamiento de unidades bibliográficas físicas mediante scripts de análisis estructural.
+   B. Cosecha y Análisis API (CiNii): Consultas automatizadas utilizando protocolos OpenSearch y normalización de códigos ISO-639 (ej. corrección del holandés 'dut').
+   C. Heurística de Detección de Traducciones: Empleo de algoritmos booleanos sobre clusters terminológicos para aislar la intervención traductiva efectiva.
+
+10. CONCLUSIÓN FINAL: DEL SAKOKU BIBLIOGRÁFICO AL COSMOPOLITISMO TAISHŌ
+
+El análisis 1800-1920 documenta la transformación de Japón de un sistema bibliográfico cerrado a un nodo cosmopolita de alta intensidad global. La transición se define por un triple movimiento: la pérdida de la centralidad del japonés frente a lenguas extranjeras, la triplicación de la actividad traductiva y el desplazamiento del eje de interés de la literatura clásica a la tecnología y la gramática moderna. Japón no solo importó conocimiento, sino que reconstruyó su identidad intelectual mediante una "cosecha bibliográfica" masiva que cimentó su posición en la modernidad contemporánea.

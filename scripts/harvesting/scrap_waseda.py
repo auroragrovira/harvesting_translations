@@ -20,7 +20,7 @@ from urllib3.util.retry import Retry
 KEYWORDS = ["traductor", "translator", "翻訳", "번역자", "translation", "翻译者"]
 ENABLE_YEAR_FILTER = True       # True = activar filtro; False = guardar todo
 YEAR_MIN, YEAR_MAX = 1850, 1920
-JSONL_OUTPUT = "../waseda_results.jsonl"
+JSONL_OUTPUT = os.path.join("data", "waseda", "waseda_results.jsonl")
 START_OFFSET  = 0               # empezar desde el principio
 LIMIT         = 50              # tamaño del lote (máx. permitido)
 SHORT_DELAY   = 2               # s entre lotes

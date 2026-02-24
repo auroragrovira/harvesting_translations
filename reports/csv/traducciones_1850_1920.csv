@@ -1,0 +1,160 @@
+﻿nivel,periodo,ndc,materia,total_jpn,traducciones,porcentaje
+decada,1850s,,,14249,725,13.524
+decada,1860s,,,12627,872,11.755
+decada,1870s,,,18857,2592,16.265
+decada,1880s,,,28200,2737,25.463
+decada,1890s,,,30992,1830,29.162
+decada,1900s,,,145614,3234,142.38
+decada,1910s,,,63963,3082,60.881
+decada,1920s,,,7504,527,6.977
+decada_ndc,1850s,0,Generalidades,0,0,0.0
+decada_ndc,1850s,1,Filosofía / Religión,26,0,0.0
+decada_ndc,1850s,2,Historia / Geografía,0,0,0.0
+decada_ndc,1850s,3,Ciencias Sociales,0,0,0.0
+decada_ndc,1850s,4,Ciencias Naturales,0,0,0.0
+decada_ndc,1850s,5,Tecnología / Medicina,0,0,0.0
+decada_ndc,1850s,6,Industria / Comercio,88,1,1.14
+decada_ndc,1850s,7,Artes / Recreación,5,1,20.0
+decada_ndc,1850s,8,Lenguaje,972,16,1.65
+decada_ndc,1850s,9,Literatura,1436,90,6.27
+decada_ndc,1860s,0,Generalidades,0,0,0.0
+decada_ndc,1860s,1,Filosofía / Religión,44,0,0.0
+decada_ndc,1860s,2,Historia / Geografía,0,0,0.0
+decada_ndc,1860s,3,Ciencias Sociales,0,0,0.0
+decada_ndc,1860s,4,Ciencias Naturales,0,0,0.0
+decada_ndc,1860s,5,Tecnología / Medicina,0,0,0.0
+decada_ndc,1860s,6,Industria / Comercio,255,39,15.29
+decada_ndc,1860s,7,Artes / Recreación,5,1,20.0
+decada_ndc,1860s,8,Lenguaje,831,31,3.73
+decada_ndc,1860s,9,Literatura,1388,94,6.77
+decada_ndc,1870s,0,Generalidades,0,0,0.0
+decada_ndc,1870s,1,Filosofía / Religión,58,4,6.9
+decada_ndc,1870s,2,Historia / Geografía,0,0,0.0
+decada_ndc,1870s,3,Ciencias Sociales,0,0,0.0
+decada_ndc,1870s,4,Ciencias Naturales,0,0,0.0
+decada_ndc,1870s,5,Tecnología / Medicina,0,0,0.0
+decada_ndc,1870s,6,Industria / Comercio,4063,834,20.53
+decada_ndc,1870s,7,Artes / Recreación,32,10,31.25
+decada_ndc,1870s,8,Lenguaje,1462,138,9.44
+decada_ndc,1870s,9,Literatura,1270,156,12.28
+decada_ndc,1880s,0,Generalidades,0,0,0.0
+decada_ndc,1880s,1,Filosofía / Religión,168,7,4.17
+decada_ndc,1880s,2,Historia / Geografía,0,0,0.0
+decada_ndc,1880s,3,Ciencias Sociales,0,0,0.0
+decada_ndc,1880s,4,Ciencias Naturales,0,0,0.0
+decada_ndc,1880s,5,Tecnología / Medicina,0,0,0.0
+decada_ndc,1880s,6,Industria / Comercio,8339,1290,15.47
+decada_ndc,1880s,7,Artes / Recreación,99,25,25.25
+decada_ndc,1880s,8,Lenguaje,2773,142,5.12
+decada_ndc,1880s,9,Literatura,2423,240,9.91
+decada_ndc,1890s,0,Generalidades,0,0,0.0
+decada_ndc,1890s,1,Filosofía / Religión,197,2,1.02
+decada_ndc,1890s,2,Historia / Geografía,0,0,0.0
+decada_ndc,1890s,3,Ciencias Sociales,0,0,0.0
+decada_ndc,1890s,4,Ciencias Naturales,0,0,0.0
+decada_ndc,1890s,5,Tecnología / Medicina,0,0,0.0
+decada_ndc,1890s,6,Industria / Comercio,9865,1005,10.19
+decada_ndc,1890s,7,Artes / Recreación,174,8,4.6
+decada_ndc,1890s,8,Lenguaje,2510,112,4.46
+decada_ndc,1890s,9,Literatura,2166,96,4.43
+decada_ndc,1900s,0,Generalidades,0,0,0.0
+decada_ndc,1900s,1,Filosofía / Religión,1050,6,0.57
+decada_ndc,1900s,2,Historia / Geografía,0,0,0.0
+decada_ndc,1900s,3,Ciencias Sociales,0,0,0.0
+decada_ndc,1900s,4,Ciencias Naturales,0,0,0.0
+decada_ndc,1900s,5,Tecnología / Medicina,0,0,0.0
+decada_ndc,1900s,6,Industria / Comercio,15073,1045,6.93
+decada_ndc,1900s,7,Artes / Recreación,1781,29,1.63
+decada_ndc,1900s,8,Lenguaje,8445,311,3.68
+decada_ndc,1900s,9,Literatura,6773,201,2.97
+decada_ndc,1910s,0,Generalidades,0,0,0.0
+decada_ndc,1910s,1,Filosofía / Religión,400,16,4.0
+decada_ndc,1910s,2,Historia / Geografía,0,0,0.0
+decada_ndc,1910s,3,Ciencias Sociales,0,0,0.0
+decada_ndc,1910s,4,Ciencias Naturales,0,0,0.0
+decada_ndc,1910s,5,Tecnología / Medicina,0,0,0.0
+decada_ndc,1910s,6,Industria / Comercio,12469,774,6.21
+decada_ndc,1910s,7,Artes / Recreación,728,48,6.59
+decada_ndc,1910s,8,Lenguaje,7448,569,7.64
+decada_ndc,1910s,9,Literatura,3912,144,3.68
+decada_ndc,1920s,0,Generalidades,0,0,0.0
+decada_ndc,1920s,1,Filosofía / Religión,30,1,3.33
+decada_ndc,1920s,2,Historia / Geografía,0,0,0.0
+decada_ndc,1920s,3,Ciencias Sociales,0,0,0.0
+decada_ndc,1920s,4,Ciencias Naturales,0,0,0.0
+decada_ndc,1920s,5,Tecnología / Medicina,0,0,0.0
+decada_ndc,1920s,6,Industria / Comercio,993,90,9.06
+decada_ndc,1920s,7,Artes / Recreación,66,12,18.18
+decada_ndc,1920s,8,Lenguaje,771,108,14.01
+decada_ndc,1920s,9,Literatura,407,22,5.41
+año,1850,,,1715,56,3.27
+año,1851,,,1444,46,3.19
+año,1852,,,1373,32,2.33
+año,1853,,,1334,42,3.15
+año,1854,,,1693,125,7.38
+año,1855,,,1319,83,6.29
+año,1856,,,1598,123,7.7
+año,1857,,,1510,129,8.54
+año,1858,,,1227,59,4.81
+año,1859,,,1036,30,2.9
+año,1860,,,1745,92,5.27
+año,1861,,,1170,67,5.73
+año,1862,,,1225,85,6.94
+año,1863,,,1187,25,2.11
+año,1864,,,1218,34,2.79
+año,1865,,,913,66,7.23
+año,1866,,,1060,95,8.96
+año,1867,,,1144,144,12.59
+año,1868,,,1799,150,8.34
+año,1869,,,1166,114,9.78
+año,1870,,,1453,134,9.22
+año,1871,,,1168,171,14.64
+año,1872,,,1328,213,16.04
+año,1873,,,1789,290,16.21
+año,1874,,,2009,302,15.03
+año,1875,,,1978,295,14.91
+año,1876,,,2123,326,15.36
+año,1877,,,2254,253,11.22
+año,1878,,,2260,284,12.57
+año,1879,,,2495,324,12.99
+año,1880,,,2859,226,7.9
+año,1881,,,2597,176,6.78
+año,1882,,,2906,277,9.53
+año,1883,,,2825,276,9.77
+año,1884,,,2665,174,6.53
+año,1885,,,2550,273,10.71
+año,1886,,,2715,304,11.2
+año,1887,,,3348,461,13.77
+año,1888,,,2981,338,11.34
+año,1889,,,2754,232,8.42
+año,1890,,,3014,208,6.9
+año,1891,,,3130,197,6.29
+año,1892,,,3181,190,5.97
+año,1893,,,3480,232,6.67
+año,1894,,,3485,188,5.39
+año,1895,,,2699,133,4.93
+año,1896,,,2800,156,5.57
+año,1897,,,3023,170,5.62
+año,1898,,,3030,158,5.21
+año,1899,,,3150,198,6.29
+año,1900,,,106250,1583,1.49
+año,1901,,,4188,160,3.82
+año,1902,,,4488,169,3.77
+año,1903,,,4597,180,3.92
+año,1904,,,3652,154,4.22
+año,1905,,,3724,140,3.76
+año,1906,,,4193,210,5.01
+año,1907,,,4418,237,5.36
+año,1908,,,4920,180,3.66
+año,1909,,,5184,221,4.26
+año,1910,,,6377,246,3.86
+año,1911,,,6389,235,3.68
+año,1912,,,6481,256,3.95
+año,1913,,,6354,322,5.07
+año,1914,,,6153,411,6.68
+año,1915,,,6641,342,5.15
+año,1916,,,6522,315,4.83
+año,1917,,,6568,317,4.83
+año,1918,,,6383,266,4.17
+año,1919,,,6095,372,6.1
+año,1920,,,7504,527,7.02

@@ -158,7 +158,7 @@ def main():
         total_valid = checkpoint["total_valid"]
     else:
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_filename = f"../tokyo_results_{timestamp}.jsonl"
+        output_filename = os.path.join("data", "tokyo", f"tokyo_results_{timestamp}.jsonl")
         token = None
         total_seen = 0
         total_valid = 0

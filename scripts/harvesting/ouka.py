@@ -19,7 +19,7 @@ BASE   = "https://ir.library.osaka-u.ac.jp/repo/mmd_api/oai-pmh/"
 PREFIX = "oai_dc"
 KEYWORDS = ["traductor", "translator", "翻訳", "번역자", "translation", "翻译者"]
 YEAR_MIN, YEAR_MAX = 1850, 1920
-JSONL_OUTPUT = "../osaka_results.jsonl"
+JSONL_OUTPUT = os.path.join("data", "osaka", "osaka_results.jsonl")
 DELAY_LOT, DELAY_ERR = 2, 30
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 # ─────────────────────────────────────────────────────────────
