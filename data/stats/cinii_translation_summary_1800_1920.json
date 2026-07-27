@@ -1,0 +1,728 @@
+{
+    "1800": {
+        "total_jpn": 32022,
+        "translations": 948,
+        "translations_all": 995,
+        "originals": 31074
+    },
+    "1801": {
+        "total_jpn": 1017,
+        "translations": 22,
+        "translations_all": 23,
+        "originals": 995
+    },
+    "1802": {
+        "total_jpn": 1132,
+        "translations": 12,
+        "translations_all": 12,
+        "originals": 1120
+    },
+    "1803": {
+        "total_jpn": 1118,
+        "translations": 11,
+        "translations_all": 11,
+        "originals": 1107
+    },
+    "1804": {
+        "total_jpn": 1027,
+        "translations": 20,
+        "translations_all": 21,
+        "originals": 1007
+    },
+    "1805": {
+        "total_jpn": 918,
+        "translations": 65,
+        "translations_all": 68,
+        "originals": 853
+    },
+    "1806": {
+        "total_jpn": 958,
+        "translations": 23,
+        "translations_all": 24,
+        "originals": 935
+    },
+    "1807": {
+        "total_jpn": 974,
+        "translations": 1,
+        "translations_all": 1,
+        "originals": 973
+    },
+    "1808": {
+        "total_jpn": 1061,
+        "translations": 39,
+        "translations_all": 40,
+        "originals": 1022
+    },
+    "1809": {
+        "total_jpn": 1004,
+        "translations": 56,
+        "translations_all": 58,
+        "originals": 948
+    },
+    "1810": {
+        "total_jpn": 909,
+        "translations": 35,
+        "translations_all": 36,
+        "originals": 874
+    },
+    "1811": {
+        "total_jpn": 1050,
+        "translations": 14,
+        "translations_all": 14,
+        "originals": 1036
+    },
+    "1812": {
+        "total_jpn": 1066,
+        "translations": 20,
+        "translations_all": 21,
+        "originals": 1046
+    },
+    "1813": {
+        "total_jpn": 1011,
+        "translations": 8,
+        "translations_all": 8,
+        "originals": 1003
+    },
+    "1814": {
+        "total_jpn": 922,
+        "translations": 20,
+        "translations_all": 21,
+        "originals": 902
+    },
+    "1815": {
+        "total_jpn": 1044,
+        "translations": 36,
+        "translations_all": 37,
+        "originals": 1008
+    },
+    "1816": {
+        "total_jpn": 1119,
+        "translations": 13,
+        "translations_all": 13,
+        "originals": 1106
+    },
+    "1817": {
+        "total_jpn": 983,
+        "translations": 32,
+        "translations_all": 33,
+        "originals": 951
+    },
+    "1818": {
+        "total_jpn": 1114,
+        "translations": 30,
+        "translations_all": 31,
+        "originals": 1084
+    },
+    "1819": {
+        "total_jpn": 1129,
+        "translations": 20,
+        "translations_all": 21,
+        "originals": 1109
+    },
+    "1820": {
+        "total_jpn": 1029,
+        "translations": 20,
+        "translations_all": 21,
+        "originals": 1009
+    },
+    "1821": {
+        "total_jpn": 902,
+        "translations": 37,
+        "translations_all": 38,
+        "originals": 865
+    },
+    "1822": {
+        "total_jpn": 992,
+        "translations": 53,
+        "translations_all": 55,
+        "originals": 939
+    },
+    "1823": {
+        "total_jpn": 1067,
+        "translations": 8,
+        "translations_all": 8,
+        "originals": 1059
+    },
+    "1824": {
+        "total_jpn": 1046,
+        "translations": 19,
+        "translations_all": 19,
+        "originals": 1027
+    },
+    "1825": {
+        "total_jpn": 950,
+        "translations": 38,
+        "translations_all": 39,
+        "originals": 912
+    },
+    "1826": {
+        "total_jpn": 1087,
+        "translations": 52,
+        "translations_all": 54,
+        "originals": 1035
+    },
+    "1827": {
+        "total_jpn": 1074,
+        "translations": 3,
+        "translations_all": 3,
+        "originals": 1071
+    },
+    "1828": {
+        "total_jpn": 1067,
+        "translations": 28,
+        "translations_all": 29,
+        "originals": 1039
+    },
+    "1829": {
+        "total_jpn": 1124,
+        "translations": 54,
+        "translations_all": 56,
+        "originals": 1070
+    },
+    "1830": {
+        "total_jpn": 1249,
+        "translations": 17,
+        "translations_all": 17,
+        "originals": 1232
+    },
+    "1831": {
+        "total_jpn": 1063,
+        "translations": 7,
+        "translations_all": 7,
+        "originals": 1056
+    },
+    "1832": {
+        "total_jpn": 1060,
+        "translations": 12,
+        "translations_all": 12,
+        "originals": 1048
+    },
+    "1833": {
+        "total_jpn": 1164,
+        "translations": 21,
+        "translations_all": 22,
+        "originals": 1143
+    },
+    "1834": {
+        "total_jpn": 1143,
+        "translations": 22,
+        "translations_all": 23,
+        "originals": 1121
+    },
+    "1835": {
+        "total_jpn": 1129,
+        "translations": 23,
+        "translations_all": 24,
+        "originals": 1106
+    },
+    "1836": {
+        "total_jpn": 1208,
+        "translations": 22,
+        "translations_all": 23,
+        "originals": 1186
+    },
+    "1837": {
+        "total_jpn": 1255,
+        "translations": 51,
+        "translations_all": 53,
+        "originals": 1204
+    },
+    "1838": {
+        "total_jpn": 950,
+        "translations": 6,
+        "translations_all": 6,
+        "originals": 944
+    },
+    "1839": {
+        "total_jpn": 843,
+        "translations": 16,
+        "translations_all": 16,
+        "originals": 827
+    },
+    "1840": {
+        "total_jpn": 1082,
+        "translations": 3,
+        "translations_all": 3,
+        "originals": 1079
+    },
+    "1841": {
+        "total_jpn": 1161,
+        "translations": 6,
+        "translations_all": 6,
+        "originals": 1155
+    },
+    "1842": {
+        "total_jpn": 1133,
+        "translations": 14,
+        "translations_all": 14,
+        "originals": 1119
+    },
+    "1843": {
+        "total_jpn": 1139,
+        "translations": 32,
+        "translations_all": 33,
+        "originals": 1107
+    },
+    "1844": {
+        "total_jpn": 1018,
+        "translations": 10,
+        "translations_all": 10,
+        "originals": 1008
+    },
+    "1845": {
+        "total_jpn": 1205,
+        "translations": 32,
+        "translations_all": 33,
+        "originals": 1173
+    },
+    "1846": {
+        "total_jpn": 1179,
+        "translations": 10,
+        "translations_all": 10,
+        "originals": 1169
+    },
+    "1847": {
+        "total_jpn": 1240,
+        "translations": 23,
+        "translations_all": 24,
+        "originals": 1217
+    },
+    "1848": {
+        "total_jpn": 1480,
+        "translations": 19,
+        "translations_all": 19,
+        "originals": 1461
+    },
+    "1849": {
+        "total_jpn": 1505,
+        "translations": 36,
+        "translations_all": 37,
+        "originals": 1469
+    },
+    "1850": {
+        "total_jpn": 374,
+        "translations": 4,
+        "translations_all": 5,
+        "originals": 370
+    },
+    "1851": {
+        "total_jpn": 335,
+        "translations": 2,
+        "translations_all": 5,
+        "originals": 333
+    },
+    "1852": {
+        "total_jpn": 329,
+        "translations": 0,
+        "translations_all": 1,
+        "originals": 329
+    },
+    "1853": {
+        "total_jpn": 284,
+        "translations": 2,
+        "translations_all": 7,
+        "originals": 282
+    },
+    "1854": {
+        "total_jpn": 346,
+        "translations": 7,
+        "translations_all": 9,
+        "originals": 339
+    },
+    "1855": {
+        "total_jpn": 248,
+        "translations": 5,
+        "translations_all": 6,
+        "originals": 243
+    },
+    "1856": {
+        "total_jpn": 390,
+        "translations": 0,
+        "translations_all": 3,
+        "originals": 390
+    },
+    "1857": {
+        "total_jpn": 314,
+        "translations": 1,
+        "translations_all": 4,
+        "originals": 313
+    },
+    "1858": {
+        "total_jpn": 289,
+        "translations": 2,
+        "translations_all": 4,
+        "originals": 287
+    },
+    "1859": {
+        "total_jpn": 250,
+        "translations": 0,
+        "translations_all": 3,
+        "originals": 250
+    },
+    "1860": {
+        "total_jpn": 397,
+        "translations": 8,
+        "translations_all": 13,
+        "originals": 389
+    },
+    "1861": {
+        "total_jpn": 315,
+        "translations": 0,
+        "translations_all": 4,
+        "originals": 315
+    },
+    "1862": {
+        "total_jpn": 273,
+        "translations": 3,
+        "translations_all": 8,
+        "originals": 270
+    },
+    "1863": {
+        "total_jpn": 302,
+        "translations": 0,
+        "translations_all": 1,
+        "originals": 302
+    },
+    "1864": {
+        "total_jpn": 362,
+        "translations": 3,
+        "translations_all": 5,
+        "originals": 359
+    },
+    "1865": {
+        "total_jpn": 246,
+        "translations": 0,
+        "translations_all": 8,
+        "originals": 246
+    },
+    "1866": {
+        "total_jpn": 323,
+        "translations": 0,
+        "translations_all": 2,
+        "originals": 323
+    },
+    "1867": {
+        "total_jpn": 316,
+        "translations": 6,
+        "translations_all": 13,
+        "originals": 310
+    },
+    "1868": {
+        "total_jpn": 485,
+        "translations": 4,
+        "translations_all": 7,
+        "originals": 481
+    },
+    "1869": {
+        "total_jpn": 433,
+        "translations": 10,
+        "translations_all": 16,
+        "originals": 423
+    },
+    "1870": {
+        "total_jpn": 449,
+        "translations": 12,
+        "translations_all": 14,
+        "originals": 437
+    },
+    "1871": {
+        "total_jpn": 476,
+        "translations": 12,
+        "translations_all": 15,
+        "originals": 464
+    },
+    "1872": {
+        "total_jpn": 535,
+        "translations": 33,
+        "translations_all": 39,
+        "originals": 502
+    },
+    "1873": {
+        "total_jpn": 672,
+        "translations": 28,
+        "translations_all": 42,
+        "originals": 644
+    },
+    "1874": {
+        "total_jpn": 792,
+        "translations": 48,
+        "translations_all": 56,
+        "originals": 744
+    },
+    "1875": {
+        "total_jpn": 848,
+        "translations": 36,
+        "translations_all": 42,
+        "originals": 812
+    },
+    "1876": {
+        "total_jpn": 937,
+        "translations": 44,
+        "translations_all": 50,
+        "originals": 893
+    },
+    "1877": {
+        "total_jpn": 1022,
+        "translations": 37,
+        "translations_all": 43,
+        "originals": 985
+    },
+    "1878": {
+        "total_jpn": 1052,
+        "translations": 50,
+        "translations_all": 56,
+        "originals": 1002
+    },
+    "1879": {
+        "total_jpn": 1254,
+        "translations": 63,
+        "translations_all": 70,
+        "originals": 1191
+    },
+    "1880": {
+        "total_jpn": 1323,
+        "translations": 28,
+        "translations_all": 33,
+        "originals": 1295
+    },
+    "1881": {
+        "total_jpn": 1307,
+        "translations": 40,
+        "translations_all": 44,
+        "originals": 1267
+    },
+    "1882": {
+        "total_jpn": 1456,
+        "translations": 64,
+        "translations_all": 72,
+        "originals": 1392
+    },
+    "1883": {
+        "total_jpn": 1440,
+        "translations": 73,
+        "translations_all": 83,
+        "originals": 1367
+    },
+    "1884": {
+        "total_jpn": 1631,
+        "translations": 43,
+        "translations_all": 50,
+        "originals": 1588
+    },
+    "1885": {
+        "total_jpn": 1395,
+        "translations": 61,
+        "translations_all": 69,
+        "originals": 1334
+    },
+    "1886": {
+        "total_jpn": 1538,
+        "translations": 65,
+        "translations_all": 79,
+        "originals": 1473
+    },
+    "1887": {
+        "total_jpn": 1864,
+        "translations": 130,
+        "translations_all": 143,
+        "originals": 1734
+    },
+    "1888": {
+        "total_jpn": 1648,
+        "translations": 96,
+        "translations_all": 102,
+        "originals": 1552
+    },
+    "1889": {
+        "total_jpn": 1421,
+        "translations": 72,
+        "translations_all": 79,
+        "originals": 1349
+    },
+    "1890": {
+        "total_jpn": 1529,
+        "translations": 64,
+        "translations_all": 72,
+        "originals": 1465
+    },
+    "1891": {
+        "total_jpn": 1668,
+        "translations": 59,
+        "translations_all": 64,
+        "originals": 1609
+    },
+    "1892": {
+        "total_jpn": 1679,
+        "translations": 46,
+        "translations_all": 56,
+        "originals": 1633
+    },
+    "1893": {
+        "total_jpn": 1874,
+        "translations": 76,
+        "translations_all": 87,
+        "originals": 1798
+    },
+    "1894": {
+        "total_jpn": 1924,
+        "translations": 62,
+        "translations_all": 71,
+        "originals": 1862
+    },
+    "1895": {
+        "total_jpn": 1432,
+        "translations": 45,
+        "translations_all": 49,
+        "originals": 1387
+    },
+    "1896": {
+        "total_jpn": 1614,
+        "translations": 45,
+        "translations_all": 54,
+        "originals": 1569
+    },
+    "1897": {
+        "total_jpn": 1719,
+        "translations": 56,
+        "translations_all": 72,
+        "originals": 1663
+    },
+    "1898": {
+        "total_jpn": 1728,
+        "translations": 49,
+        "translations_all": 55,
+        "originals": 1679
+    },
+    "1899": {
+        "total_jpn": 1827,
+        "translations": 51,
+        "translations_all": 64,
+        "originals": 1776
+    },
+    "1900": {
+        "total_jpn": 20759,
+        "translations": 216,
+        "translations_all": 335,
+        "originals": 20543
+    },
+    "1901": {
+        "total_jpn": 2175,
+        "translations": 56,
+        "translations_all": 64,
+        "originals": 2119
+    },
+    "1902": {
+        "total_jpn": 2354,
+        "translations": 42,
+        "translations_all": 52,
+        "originals": 2312
+    },
+    "1903": {
+        "total_jpn": 2592,
+        "translations": 53,
+        "translations_all": 65,
+        "originals": 2539
+    },
+    "1904": {
+        "total_jpn": 2129,
+        "translations": 42,
+        "translations_all": 55,
+        "originals": 2087
+    },
+    "1905": {
+        "total_jpn": 1989,
+        "translations": 37,
+        "translations_all": 48,
+        "originals": 1952
+    },
+    "1906": {
+        "total_jpn": 2471,
+        "translations": 55,
+        "translations_all": 77,
+        "originals": 2416
+    },
+    "1907": {
+        "total_jpn": 2609,
+        "translations": 75,
+        "translations_all": 99,
+        "originals": 2534
+    },
+    "1908": {
+        "total_jpn": 2941,
+        "translations": 56,
+        "translations_all": 67,
+        "originals": 2885
+    },
+    "1909": {
+        "total_jpn": 3053,
+        "translations": 70,
+        "translations_all": 84,
+        "originals": 2983
+    },
+    "1910": {
+        "total_jpn": 3499,
+        "translations": 65,
+        "translations_all": 97,
+        "originals": 3434
+    },
+    "1911": {
+        "total_jpn": 3569,
+        "translations": 87,
+        "translations_all": 109,
+        "originals": 3482
+    },
+    "1912": {
+        "total_jpn": 3222,
+        "translations": 53,
+        "translations_all": 81,
+        "originals": 3169
+    },
+    "1913": {
+        "total_jpn": 2792,
+        "translations": 48,
+        "translations_all": 65,
+        "originals": 2744
+    },
+    "1914": {
+        "total_jpn": 2804,
+        "translations": 61,
+        "translations_all": 89,
+        "originals": 2743
+    },
+    "1915": {
+        "total_jpn": 2891,
+        "translations": 55,
+        "translations_all": 66,
+        "originals": 2836
+    },
+    "1916": {
+        "total_jpn": 2722,
+        "translations": 34,
+        "translations_all": 45,
+        "originals": 2688
+    },
+    "1917": {
+        "total_jpn": 2576,
+        "translations": 53,
+        "translations_all": 64,
+        "originals": 2523
+    },
+    "1918": {
+        "total_jpn": 2427,
+        "translations": 42,
+        "translations_all": 49,
+        "originals": 2385
+    },
+    "1919": {
+        "total_jpn": 2610,
+        "translations": 49,
+        "translations_all": 60,
+        "originals": 2561
+    },
+    "1920": {
+        "total_jpn": 2901,
+        "translations": 80,
+        "translations_all": 101,
+        "originals": 2821
+    }
+}

@@ -26,3 +26,6 @@ osaka/*.jsonl
 tokyo/*.jsonl
 sample_compl/
 data/raw/
+
+# Directorios de Agente y Scratch
+brain/
