@@ -101,9 +101,10 @@ harvesting_translations/
 │   ├── historical/             # Informes históricos base
 │   ├── enriched_historical/    # Informes históricos corregidos
 │   ├── specific/               # Informes temáticos específicos
-│   └── csv/                    # Tablas de datos agregados en CSV
+│   ├── analysis/               # Diagnósticos metodológicos y análisis de sesgos
+│   ├── csv/                    # Tablas de datos agregados en CSV
+│   └── entorno_reproducibilidad.md # Especificación y congelación del entorno de ejecución
 ├── config/                     # Archivos de configuración
-├── entorno_reproducibilidad.md # Especificación y congelación del entorno de ejecución
 └── requirements.txt            # Dependencias del proyecto
 ```
 
@@ -112,8 +113,8 @@ harvesting_translations/
 ## 🛠️ Configuración e Instalación
 
 ### Requisitos Técnicos
-*   Python 3.8+
-*   Dependencias listadas en `requirements.txt` (`pandas`, `matplotlib`, `seaborn`, `numpy`).
+*   **Python 3.10+** (Recomendado `Python 3.11+` / `3.13.x`; entorno de validación y ejecución determinista: `Python 3.13.14`; véase [`reports/entorno_reproducibilidad.md`](reports/entorno_reproducibilidad.md)).
+*   Dependencias listadas en `requirements.txt` (`pandas`, `matplotlib`, `seaborn`, `numpy`, `scipy`, `requests`, `urllib3`, `lxml`).
 
 ### Instalación
 1.  Clonar el repositorio.

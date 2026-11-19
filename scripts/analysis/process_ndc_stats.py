@@ -2,9 +2,10 @@ import os
 import json
 from collections import defaultdict
 
-BASE_DIR = os.path.join("data", "cinii", "v3_by_ndc_lang")
-OUTPUT_JSON = "cinii_ndc_full_stats.json"
-OUTPUT_MD = "cinii_resumen_ndc.md"
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR = os.path.join(ROOT_DIR, "data", "cinii", "v3_by_ndc_lang")
+OUTPUT_JSON = os.path.join(ROOT_DIR, "data", "stats", "cinii_ndc_full_stats.json")
+OUTPUT_MD = os.path.join(ROOT_DIR, "reports", "historical", "cinii_resumen_ndc.md")
 
 NDC_NAMES = {
     "0": "Generalidades",
