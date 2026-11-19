@@ -113,8 +113,8 @@ harvesting_translations/
 ## 🛠️ Configuración e Instalación
 
 ### Requisitos Técnicos
-*   **Python 3.10+** (Recomendado `Python 3.11+` / `3.13.x`; entorno de validación y ejecución determinista: `Python 3.13.14`; véase [`reports/entorno_reproducibilidad.md`](reports/entorno_reproducibilidad.md)).
-*   Dependencias listadas en `requirements.txt` (`pandas`, `matplotlib`, `seaborn`, `numpy`, `scipy`, `requests`, `urllib3`, `lxml`).
+*   Python 3.8+
+*   Dependencias listadas en `requirements.txt`.
 
 ### Instalación
 1.  Clonar el repositorio.
