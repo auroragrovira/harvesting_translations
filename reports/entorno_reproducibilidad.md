@@ -1,7 +1,7 @@
 # Entorno de Ejecución y Reproducibilidad Técnica
 
-**Proyecto:** *Harvesting Translations: Infraestructura para el Análisis del Trasvase Cultural en Japón (1800-1920)*  
-**Investigación:** Tesis doctoral «El cambio en el campo literario. El caso del Japón Meiji a través de la figura de Tsubouchi Shōyō» (CEINDO - Universitat CEU Abat Oliba)  
+**Proyecto:** *Harvesting Translations: Infraestructura para el análisis de la circulación cultural en Japón (1800-1920)*  
+**Investigación:** Tesis doctoral «El campo literario japonés de la era Meiji. El caso de Tsubouchi Shōyō como agente del cambio» (CEINDO - Universitat CEU Abat Oliba)  
 **Fecha de registro y congelación:** 19 de noviembre de 2026  
 **Propósito:** Garantizar la auditabilidad, verificación y replicación determinista de los scripts de recolección, procesamiento estadístico y generación de visualizaciones a 300 DPI.
 

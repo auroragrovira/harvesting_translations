@@ -1,6 +1,6 @@
 ANÁLISIS ESTRATÉGICO Y CRÍTICO DEL CORPUS BIBLIOGRÁFICO NACIONAL (CiNii: 1800-1920)
 
-NOTA ACADÉMICA: Esta investigación constituye un avance de resultados parciales de la tesis doctoral "El cambio en el campo literario. El caso del Japón Meiji a través de la figura de Tsubouchi Shoyo", enmarcada en el programa doctoral en Humanidades para el mundo contemporáneo de CEINDO (Escuela Internacional de Doctorado CEU).
+NOTA ACADÉMICA: Esta investigación constituye un avance de resultados parciales de la tesis doctoral "El campo literario japonés de la era Meiji. El caso de Tsubouchi Shōyō como agente del cambio", enmarcada en el programa doctoral en Humanidades para el mundo contemporáneo de la CEU Escuela Internacional de Doctorado (CEINDO).
 
 El presente informe detalla los hallazgos derivados del análisis cuantitativo y cualitativo de la producción editorial en Japón, orientado por la Clasificación Decimal Nipona (NDC). El estudio integra datos del corpus institucional segmentado y verificaciones masivas mediante protocolos API, permitiendo una reconstrucción técnica de la historia intelectual japonesa en su arco de mayor transformación.
 
