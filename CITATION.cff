@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as follows."
+title: "Harvesting Translations: Infraestructura para el análisis de la circulación cultural en Japón (1800–1920)"
+authors:
+  - family-names: "Gomez-Rovira"
+    given-names: "Aurora"
+    orcid: "https://orcid.org/0009-0002-4077-5073"
+    affiliation: "Universitat CEU Abat Oliba, CEU Escuela Internacional de Doctorado (CEINDO)"
+version: 1.0.0
+type: software
+license: MIT
+repository-code: "https://github.com/auroragrovira/harvesting_translations"
+abstract: >
+  Infraestructura de recolección, normalización y análisis
+  de metadatos bibliográficos para el estudio de la circulación
+  cultural y los indicios de actividad traductora en Japón
+  entre 1800 y 1920.
+keywords:
+  - Digital humanities
+  - Translation studies
+  - Japanese literature
+  - Meiji Japan
+  - Bibliographic metadata
+  - Distant reading

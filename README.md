@@ -159,6 +159,9 @@ cinii=tu_appid_nii_aqui
 deepseek=tu_clave_deepseek_aqui
 ```
 
+### Financiación
+Este trabajo se ha desarrollado en el marco de la investigación doctoral de la autora, beneficiaria de una ayuda a la contratación de jóvenes investigadores CEU-Santander (2023-24) en la Universitat CEU Abat Oliba.
+
 ---
 
 ## ⚖️ Licencia y Propósito Académico
