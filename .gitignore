@@ -9,6 +9,7 @@ config/api_keys
 docs/metodologia_humanidades_digitales.txt
 docs/README_2.md
 reports/synthesis/analisis_resumen_ndc.txt
+auditoria/
 
 # Datos Crudos (Tamaño excesivo)
 *.jsonl
