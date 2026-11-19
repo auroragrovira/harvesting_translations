@@ -3,9 +3,10 @@
 """
 plot_combined_translations_panel.py
 ===================================
-Genera el Panel Combinado (Gráficas 2 y 3):
-- Panel 2 (Izquierda): Distribución por lenguas de origen (Escala académica formal en miles).
-- Panel 3 (Derecha): Penetración temática por disciplinas (NDC) (Escala académica formal en miles).
+Genera el Panel Combinado:
+- Panel Izquierdo: Distribución por lenguas (Escala académica formal en miles).
+- Panel Derecho: Distribución temática por lenguas (Escala académica formal en miles).
+Distribución lingüística y temática de los registros en lenguas extranjeras (1850–1920).
 """
 
 import os
@@ -60,7 +61,7 @@ def format_thousands(x, pos):
     return f"{val:.1f}"
 
 def load_data():
-    # 1. Cargar datos del Panel 2 (Lenguas de origen 1850-1920)
+    # 1. Cargar datos del Panel Izquierdo (Registros en lenguas extranjeras 1850-1920)
     with open(FULL_STATS_FILE, "r", encoding="utf-8") as f:
         full_data = json.load(f)
 
@@ -79,7 +80,7 @@ def load_data():
     total_foreign = df_lang["Cantidad"].sum()
     df_lang["Porcentaje"] = (df_lang["Cantidad"] / total_foreign * 100) if total_foreign > 0 else 0
 
-    # 2. Cargar datos del Panel 3 (Matriz NDC x Lengua)
+    # 2. Cargar datos del Panel Derecho (Matriz temática NDC x Lengua extranjera)
     with open(MATRIX_FILE, "r", encoding="utf-8") as f:
         matrix_data = json.load(f)
 
@@ -123,7 +124,7 @@ def main():
     ax1.set_facecolor('#ffffff')
     ax2.set_facecolor('#ffffff')
 
-    # --- PANEL 2 (Izquierda): Distribución por Lenguas de Origen ---
+    # --- PANEL IZQUIERDO: Distribución por lenguas ---
     colors_lang = [LANG_COLORS.get(l, "#94a3b8") for l in df_lang["Idioma"]]
     bars1 = ax1.barh(df_lang["Idioma"], df_lang["Cantidad"], color=colors_lang, alpha=0.88, height=0.58)
 
@@ -136,7 +137,7 @@ def main():
                      textcoords="offset points",
                      ha='left', va='center', fontsize=9.5, fontweight='bold', color='#1e293b')
 
-    ax1.set_title("Distribución por lenguas de origen", fontsize=13.5, fontweight='bold', pad=14, color='#0f172a')
+    ax1.set_title("Distribución por lenguas", fontsize=13.5, fontweight='bold', pad=14, color='#0f172a')
     ax1.set_xlabel("Número de documentos (en miles)", fontsize=11.5, labelpad=8, color='#334155')
     ax1.xaxis.set_major_formatter(ticker.FuncFormatter(format_thousands))
     ax1.xaxis.set_major_locator(ticker.MaxNLocator(nbins=6))
@@ -145,7 +146,7 @@ def main():
     ax1.set_xlim(0, max_c1 * 1.25)
     sns.despine(ax=ax1, left=True, bottom=True)
 
-    # --- PANEL 3 (Derecha): Penetración Temática por Disciplinas (NDC) ---
+    # --- PANEL DERECHO: Distribución temática por lenguas ---
     pivot_ndc = pivot_ndc.reindex(columns=[l for l in all_langs if l in pivot_ndc.columns], fill_value=0)
     colors_ndc = [LANG_COLORS[col] for col in pivot_ndc.columns]
 
@@ -155,7 +156,7 @@ def main():
     for idx, (materia, total) in enumerate(totals_ndc.items()):
         ax2.text(total + (max_c2 * 0.02), idx, f"{int(total):,}", va='center', fontsize=9.5, fontweight='bold', color='#1e293b')
 
-    ax2.set_title("Penetración temática por disciplinas (NDC)", fontsize=13.5, fontweight='bold', pad=14, color='#0f172a')
+    ax2.set_title("Distribución temática por lenguas", fontsize=13.5, fontweight='bold', pad=14, color='#0f172a')
     ax2.set_xlabel("Número de documentos (en miles)", fontsize=11.5, labelpad=8, color='#334155')
     ax2.set_ylabel("") # Sin etiqueta vertical para no colisionar
     ax2.xaxis.set_major_formatter(ticker.FuncFormatter(format_thousands))
@@ -165,21 +166,21 @@ def main():
     ax2.set_xlim(0, max_c2 * 1.20)
     
     # Leyenda ubicada a la derecha fuera del área de dibujo sin solapamiento
-    ax2.legend(title="Idioma de origen", bbox_to_anchor=(1.03, 0.95), loc="upper left", frameon=True, facecolor='#ffffff', edgecolor='#cbd5e1', fontsize=9.5)
+    ax2.legend(title="Idioma", bbox_to_anchor=(1.03, 0.95), loc="upper left", frameon=True, facecolor='#ffffff', edgecolor='#cbd5e1', fontsize=9.5)
     sns.despine(ax=ax2, left=True, bottom=True)
 
     # Título Principal del Panel Combinado
-    fig.suptitle("Distribución de lenguas de origen y penetración temática de las traducciones (1850-1920)", 
+    fig.suptitle("Distribución lingüística y temática de los registros en lenguas extranjeras (1850–1920)", 
                  fontsize=16, fontweight='bold', color='#0f172a', y=0.98)
 
     plt.tight_layout()
     plt.subplots_adjust(top=0.88, wspace=0.45)
 
-    output_path = os.path.join(IMG_DIR, "panel_combinado_lenguas_temas_traduccion.png")
+    output_path = os.path.join(IMG_DIR, "panel_combinado_lenguas_temas_traduccion_15.png")
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     plt.close()
 
-    print(f"[OK] Panel Combinado (Opción A) generado exitosamente en: {output_path}")
+    print(f"[OK] Panel Combinado generado exitosamente en: {output_path}")
 
 if __name__ == "__main__":
     main()

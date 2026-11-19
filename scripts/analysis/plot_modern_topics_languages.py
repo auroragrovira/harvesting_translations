@@ -174,7 +174,7 @@ plt.tight_layout()
 plt.subplots_adjust(top=0.88, wspace=0.48)
 
 # Save image to project and artifacts
-out_path_project = os.path.join(IMG_DIR, "distribucion_temas_idiomas_1850_1920.png")
+out_path_project = os.path.join(IMG_DIR, "distribucion_temas_idiomas_1850_1920_13.png")
 plt.savefig(out_path_project, dpi=300, bbox_inches='tight')
 
 ARTIFACTS_DIR = r"C:\Users\User\.gemini\antigravity\brain\ff2b3470-db70-4aae-b1cc-5587302dec00\artifacts"

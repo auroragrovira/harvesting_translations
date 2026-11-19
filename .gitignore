@@ -29,3 +29,8 @@ data/raw/
 
 # Directorios de Agente y Scratch
 brain/
+
+# Backups y temporales
+Git_s/
+*.bak
+*~

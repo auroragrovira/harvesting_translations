@@ -103,7 +103,7 @@ ax.tick_params(axis='both', which='major', labelsize=11, labelcolor='#475569')
 plt.tight_layout()
 
 # Guardar en alta resolución
-output_path = os.path.join(IMG_DIR, "linea_volumen_total_1800_1920.png")
+output_path = os.path.join(IMG_DIR, "linea_volumen_total_1800_1920_11.png")
 plt.savefig(output_path, dpi=300, bbox_inches='tight')
 plt.close()
 

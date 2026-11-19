@@ -197,7 +197,7 @@ def main():
     plt.tight_layout()
     plt.subplots_adjust(top=0.88)
 
-    output_path = os.path.join(IMG_DIR, "comparativa_literatura_traduccion_1800_1920.png")
+    output_path = os.path.join(IMG_DIR, "evolucion_registros_indicios_traduccion_JP_14.png")
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     plt.close()
 

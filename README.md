@@ -1,13 +1,17 @@
-# Harvesting Translations: Infraestructura para el Análisis del Trasvase Cultural en Japón (1800-1920)
+# Harvesting Translations: Infraestructura para el análisis de la circulación cultural en Japón (1800-1920)
 
 Este ecosistema de software proporciona una infraestructura robusta para la recolección masiva (**harvesting**), el procesamiento inteligente (**AI-powered curation**) y el análisis macro-estadístico (**Digital Humanities Analysis**) de metadatos académicos provenientes de los principales repositorios e instituciones nacionales de Japón.
 
-El objetivo central es mapear la evolución de la modernización intelectual japonesa a través del estudio de la distribución idiomática y la intensidad de la traducción durante un arco crítico de 120 años (1800-1920), abarcando desde el aislamiento bibliográfico del periodo Edo hasta el cosmopolitismo de la era Taishō.
+El objetivo central es mapear la evolución de la modernización intelectual japonesa a través del estudio de la distribución idiomática y la intensidad de la traducción durante un arco crítico de 120 años (1800-1920), abarcando desde el aislamiento bibliográfico del periodo Edo hasta el cosmopolitismo de la era Taishō. 
+
+El proyecto incorporó el **análisis sistemático de la distribución lingüística, cronológica y temática** de los fondos bibliográficos a partir de los datos globales de CiNii Books. Asimismo, uno de los objetivos de *Harvesting Translations* fue identificar indicios de actividad traductora mediante búsquedas terminológicas multilingües en los metadatos bibliográficos (mediante descriptores y términos clave de traducción en títulos y menciones de responsabilidad en repositorios como NDL, UTokyo, Waseda, Osaka y Nichibunken).
+
+Metodológicamente, la investigación distingue de forma explícita entre los registros que contienen indicios explícitos de traducción en sus metadatos y los registros bibliográficos en lenguas extranjeras conservados en Japón; estos últimos reflejan el horizonte de adquisición y consulta de obras foráneas pero no deben identificarse directamente con traducciones ni con las lenguas de origen de las obras traducidas.
 
 ---
 
 ### 🎓 Contexto Académico
-Esta investigación presenta **resultados parciales de la tesis doctoral** titulada *"El cambio en el campo literario. El caso del Japón Meiji a través de la figura de Tsubouchi Shoyo"*, desarrollada dentro del **Programa Doctoral en Humanidades para el Mundo Contemporáneo** de la Escuela Internacional de Doctorado CEU (**CEINDO**).
+Esta investigación presenta **resultados parciales de la tesis doctoral** titulada *"El campo literario japonés de la era Meiji. El caso de Tsubouchi Shōyō como agente del cambio"*, desarrollada dentro del **Programa Doctoral en Humanidades para el Mundo Contemporáneo** de la CEU Escuela Internacional de Doctorado(**CEINDO**).
 
 ---
 
@@ -26,19 +30,37 @@ Los datos recolectados se almacenan de forma estructurada:
 *   **`data/ndl/`, `data/waseda/`, etc.**: Datos específicos de cada institución.
 *   **`data/stats/`**: Archivos de agregación estadística compilados en JSON (`cinii_translation_summary_1800_1920.json`, `cinii_full_stats.json`, `cinii_api_matrix_ndc_lang.json`).
 
-### 3. Tratamiento de Sesgos de Datos (`scripts/processing/`)
+### 3. Tratamiento de Sesgos de Datos (`scripts/processing/`, `scripts/analysis/`)
 El proyecto aborda anomalías de catalogación históricas:
-*   **Corrección de Picos Catalográficos (1800 / 1900)**: Detección y mitigación de la acumulación artificial de registros sin fecha exacta (`18--` y `19--`), aplicando técnicas de estimación e interpolación continuada basadas en tendencias de años adyacentes.
-*   **Enriquecimiento de Informes**: El script `generate_enriched_reports.py` aplica factores de corrección estadísticos para generar versiones precisas de la distribución de idiomas y materias.
+*   **Diagnóstico y Visualización del Sesgo Catalográfico (`generate_biased_visualization.py` → `images/linea_con_sesgo.png`)**: Representación de la serie temporal bruta (1850-1920) en escala logarítmica que evidencia el pico anómalo de 1900 (~42.000 registros frente a ~2.000 anuales promedio), demostrando empíricamente que el 89,9% correspondía a la etiqueta comodín `19--` (obras indatadas del siglo XX).
+*   **Corrección de Picos Catalográficos (1800 / 1900)**: Detección y mitigación de la acumulación artificial de registros sin fecha exacta (`18--` y `19--`), aplicando técnicas de deduplicación interna (`apply_internal_correction.py`) e interpolación continuada basada en tendencias de años adyacentes.
+*   **Enriquecimiento de Informes**: El script `generate_enriched_reports.py` aplica factores de corrección estadísticos para generar versiones precisas de la distribución de idiomas y materias en `reports/enriched_historical/`.
 
 ### 4. Análisis Estadístico y Visualización en Humanidades Digitales (`scripts/analysis/`, `images/`)
-Módulo avanzado para la generación de conocimiento historiográfico y visualizaciones de alta resolución (300 DPI) para publicación:
-*   **Gráfica 1 — Comparativa Literatura Autóctona vs. Traducida (1800-1920)** (`plot_translation_comparison.py`):
-    *   *Panel A (Evolución Anual):* Serie temporal comparativa entre la literatura escrita originalmente en japonés y las obras traducidas hacia el japonés.
-    *   *Panel B (Tasa de Traducción por Décadas):* Porcentaje relativo de penetración de las traducciones sobre el volumen editorial total por décadas.
-*   **Panel Combinado (Gráficas 2 y 3) — Lenguas de Origen y Difusión Temática NDC** (`plot_combined_translations_panel.py`):
-    *   *Panel 2 (Distribución por Lenguas de Origen):* Volumen y porcentaje de transferencias por idioma de origen (Inglés EN, Alemán DE, Chino ZH, Francés FR, Ruso RU, Español ES, Italiano IT, Coreano KO).
-    *   *Panel 3 (Penetración Temática por Disciplinas NDC):* Composición idiomática por áreas temáticas de la Clasificación Decimal Nipona (NDC 1: Filosofía/Religión, NDC 6: Industria/Tecnología, NDC 7: Artes, NDC 8: Lenguaje, NDC 9: Literatura), utilizando notación formal en miles.
+Módulo avanzado para la generación de conocimiento historiográfico y visualizaciones de alta resolución (300 DPI) para la tesis doctoral (Capítulo V, Figuras 9 a 15 y gráfica de diagnóstico):
+
+*   **Gráfica Metodológica de Diagnóstico — Detección del Sesgo Catalográfico (1850–1920)** (`generate_biased_visualization.py` → `images/linea_con_sesgo.png`):
+    *   Curva de volumen bruto en escala logarítmica que aísla visualmente el artefacto de catalogación de 1900 (42.429 registros), fundamentando la necesidad metodológica de emplear series enriquecidas y correcciones de escala.
+*   **Figura 9 — Distribución Lingüística del Periodo Edo (1800–1850)** (`plot_edo_languages.py` → `images/distribucion_idiomas_edo_1800_1850_9.png`):
+    *   *Panel 1 (Distribución Global):* Volumen absoluto y porcentaje relativo por idioma en el fondo bibliográfico de Edo (1800-1850).
+    *   *Panel 2 (Evolución Decadal):* Variación de la cuota porcentual de idiomas por décadas (décadas de 1800 a 1840).
+*   **Figura 10 — Distribución de Materias e Idiomas en el Periodo Edo (1800–1850)** (`plot_edo_topics_languages.py` → `images/distribucion_temas_idiomas_1800_1850_10.png`):
+    *   *Panel A (Subcategorías de Literatura):* Desglose lingüístico dentro de las divisiones de literatura (NDC 91 a 99).
+    *   *Panel B (Áreas Temáticas Generales):* Composición por idiomas en las principales disciplinas (NDC 1 Filosofía/Religión, NDC 6 Industria/Tecnología, NDC 7 Artes, NDC 8 Lenguaje, NDC 9 Literatura).
+*   **Figura 11 — Evolución del Volumen Total de Publicaciones (1800–1920)** (`plot_yearly_volume.py` → `images/linea_volumen_total_1800_1920_11.png`):
+    *   Serie temporal continua del volumen anual de documentos catalogados a lo largo del arco completo de 120 años, reflejando la transición histórica del periodo Edo hacia las eras Meiji y Taishō.
+*   **Figura 12 — Distribución Lingüística del Periodo Moderno (1850–1920)** (`plot_modern_languages.py` → `images/distribucion_idiomas_moderno_1850_1920_12.png`):
+    *   *Panel 1 (Distribución Global):* Volumen total y porcentaje de documentos por idioma catalogados en la era moderna (1850-1920).
+    *   *Panel 2 (Evolución Decadal):* Evolución de las cuotas lingüísticas por décadas (décadas de 1850 a 1910), visibilizando la diversificación idiomática.
+*   **Figura 13 — Distribución de Materias e Idiomas en el Periodo Moderno (1850–1920)** (`plot_modern_topics_languages.py` → `images/distribucion_temas_idiomas_1850_1920_13.png`):
+    *   *Panel A (Subcategorías de Literatura):* Desglose idiomático en las subdivisiones de literatura (NDC 91 a 99) en escala logarítmica.
+    *   *Panel B (Áreas Temáticas Generales):* Composición por idiomas en las cinco áreas disciplinares principales (NDC 1, 6, 7, 8, 9).
+*   **Figura 14 — Evolución de Registros con Indicios de Traducción al Japonés (1800–1920)** (`plot_translation_comparison.py` → `images/evolucion_registros_indicios_traduccion_JP_14.png`):
+    *   *Panel A (Evolución Anual):* Serie temporal comparativa entre la literatura en japonés sin indicios de traducción y las obras con indicios explícitos de traducción hacia el japonés.
+    *   *Panel B (Tasa de Traducción por Décadas):* Porcentaje relativo de penetración de las obras traducidas sobre la producción japonesa por décadas.
+*   **Figura 15 — Panel Combinado: Distribución Lingüística y Temática de los Registros en Lenguas Extranjeras (1850–1920)** (`plot_combined_translations_panel.py` → `images/panel_combinado_lenguas_temas_traduccion_15.png`):
+    *   *Panel Izquierdo (Distribución por lenguas):* Volumen y porcentaje relativo de registros bibliográficos en lenguas extranjeras catalogados en Japón (Inglés EN, Alemán DE, Francés FR, Chino ZH, Ruso RU, Italiano IT, Español ES, Coreano KO).
+    *   *Panel Derecho (Distribución temática por lenguas):* Composición disciplinar por áreas temáticas de la Clasificación Decimal Nipona (NDC 1, 6, 7, 8, 9), desglosada por idioma de catalogación en miles de documentos.
 
 ---
 
@@ -54,13 +76,25 @@ harvesting_translations/
 │   ├── osaka/                  # Datos Osaka University
 │   ├── nichibunken/            # Datos Nichibunken
 │   └── stats/                  # Agregados estadísticos en JSON
-├── images/                     # Visualizaciones de alta resolución (300 DPI)
-│   ├── comparativa_literatura_traduccion_1800_1920.png   # Gráfica 1 (Evolución y Tasa Decadal)
-│   └── panel_combinado_lenguas_temas_traduccion.png      # Panel Combinado (Lenguas de Origen y NDC)
+├── images/                     # Visualizaciones de alta resolución (300 DPI) para la tesis (Capítulo V)
+│   ├── linea_con_sesgo.png                                 # Diagnóstico metodológico: serie temporal bruta con sesgo (1900)
+│   ├── distribucion_idiomas_edo_1800_1850_9.png            # Figura 9: Distribución lingüística en Edo (1800-1850)
+│   ├── distribucion_temas_idiomas_1800_1850_10.png         # Figura 10: Materias e idiomas en Edo (1800-1850)
+│   ├── linea_volumen_total_1800_1920_11.png                # Figura 11: Volumen total anual (1800-1920)
+│   ├── distribucion_idiomas_moderno_1850_1920_12.png       # Figura 12: Distribución lingüística moderna (1850-1920)
+│   ├── distribucion_temas_idiomas_1850_1920_13.png         # Figura 13: Materias e idiomas modernos (1850-1920)
+│   ├── evolucion_registros_indicios_traduccion_JP_14.png   # Figura 14: Traducciones sobre producción en japonés (1800-1920)
+│   └── panel_combinado_lenguas_temas_traduccion_15.png     # Figura 15: Fondos en lenguas extranjeras y materias NDC (1850-1920)
 ├── scripts/                    # Código fuente
 │   ├── analysis/               # Visualizaciones e informes estadísticos
-│   │   ├── plot_translation_comparison.py          # Generador de Gráfica 1
-│   │   └── plot_combined_translations_panel.py     # Generador de Panel Combinado (2 y 3)
+│   │   ├── generate_biased_visualization.py        # Diagnóstico del sesgo catalográfico de 1900
+│   │   ├── plot_edo_languages.py                   # Generador de Figura 9
+│   │   ├── plot_edo_topics_languages.py            # Generador de Figura 10
+│   │   ├── plot_yearly_volume.py                   # Generador de Figura 11
+│   │   ├── plot_modern_languages.py                # Generador de Figura 12
+│   │   ├── plot_modern_topics_languages.py         # Generador de Figura 13
+│   │   ├── plot_translation_comparison.py          # Generador de Figura 14
+│   │   └── plot_combined_translations_panel.py     # Generador de Figura 15
 │   ├── harvesting/             # Scrapers y conectores de APIs
 │   └── processing/             # Limpieza y corrección de sesgos (1800 / 1900)
 ├── reports/                    # Resultados del análisis e informes
@@ -69,6 +103,7 @@ harvesting_translations/
 │   ├── specific/               # Informes temáticos específicos
 │   └── csv/                    # Tablas de datos agregados en CSV
 ├── config/                     # Archivos de configuración
+├── entorno_reproducibilidad.md # Especificación y congelación del entorno de ejecución
 └── requirements.txt            # Dependencias del proyecto
 ```
 
@@ -88,9 +123,30 @@ harvesting_translations/
     ```
 
 ### Generación de Gráficas de Resultados
-Para regenerar las visualizaciones estadísticas estandarizadas del proyecto:
+Para regenerar las visualizaciones estadísticas estandarizadas del proyecto (Figuras 9 a 15 del Capítulo V y gráfica metodológica de diagnóstico):
 ```bash
+# Diagnóstico metodológico: Detección del sesgo catalográfico de 1900 (serie bruta)
+python scripts/analysis/generate_biased_visualization.py
+
+# Figura 9: Distribución lingüística en el periodo Edo (1800-1850)
+python scripts/analysis/plot_edo_languages.py
+
+# Figura 10: Distribución de materias e idiomas en el periodo Edo (1800-1850)
+python scripts/analysis/plot_edo_topics_languages.py
+
+# Figura 11: Evolución del volumen total de publicaciones (1800-1920)
+python scripts/analysis/plot_yearly_volume.py
+
+# Figura 12: Distribución lingüística en el periodo moderno (1850-1920)
+python scripts/analysis/plot_modern_languages.py
+
+# Figura 13: Distribución de materias e idiomas en el periodo moderno (1850-1920)
+python scripts/analysis/plot_modern_topics_languages.py
+
+# Figura 14: Evolución de registros con indicios de traducción al japonés (1800-1920)
 python scripts/analysis/plot_translation_comparison.py
+
+# Figura 15: Panel combinado de fondos en lenguas extranjeras y materias NDC (1850-1920)
 python scripts/analysis/plot_combined_translations_panel.py
 ```
 

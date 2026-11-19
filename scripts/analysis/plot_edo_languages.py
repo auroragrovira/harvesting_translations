@@ -135,7 +135,7 @@ plt.tight_layout()
 plt.subplots_adjust(top=0.88)
 
 # Guardar
-output_path = os.path.join(IMG_DIR, "distribucion_idiomas_edo_1800_1850.png")
+output_path = os.path.join(IMG_DIR, "distribucion_idiomas_edo_1800_1850_9.png")
 plt.savefig(output_path, dpi=300, bbox_inches='tight')
 plt.close()
 
